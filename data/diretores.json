@@ -1,0 +1,179 @@
+{
+  "diretores": [
+    {
+      "nome": "Direção 01",
+      "escola": "Unidade Escolar 01",
+      "foto": "assets/equipe/retrato-01.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 02",
+      "escola": "Unidade Escolar 02",
+      "foto": "assets/equipe/retrato-02.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 03",
+      "escola": "Unidade Escolar 03",
+      "foto": "assets/equipe/retrato-03.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 04",
+      "escola": "Unidade Escolar 04",
+      "foto": "assets/equipe/retrato-04.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 06",
+      "escola": "Unidade Escolar 06",
+      "foto": "assets/equipe/retrato-06.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 07",
+      "escola": "Unidade Escolar 07",
+      "foto": "assets/equipe/retrato-07.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 08",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-08.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 09",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-09.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 09",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-10.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 09",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-11.png",
+      "imagemIlustrativa": true
+    },
+
+    {
+      "nome": "Direção 09",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-13.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 09",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-15.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 09",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-16.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 09",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-17.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 09",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-18.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 09",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-19.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 09",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-20.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 09",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-21.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 09",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-22.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 09",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-23.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 09",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-24.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 09",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-25.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 09",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-26.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 09",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-27.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 09",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-28.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 09",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-29.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 09",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-30.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 09",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-31.png",
+      "imagemIlustrativa": true
+    },
+    {
+      "nome": "Direção 09",
+      "escola": "Unidade Escolar 08",
+      "foto": "assets/equipe/retrato-32.png",
+      "imagemIlustrativa": true
+    }
+  ]
+}
