@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1a6454">
+  <meta name="description" content="Central de documentos, formulários e serviços para orientadores educacionais da Coordenadoria Regional de Educação.">
+  <title>Orientadores | Coordenadoria Regional de Educação</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/orientadores.css">
+  <script defer src="js/components.js"></script>
+  <script defer src="js/orientadores.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div id="header-container"></div>
+  <main id="conteudo">
+    <section class="teachers-hero" aria-labelledby="teachers-title">
+      <div class="container teachers-hero-inner">
+        <span class="teachers-eyebrow"><span aria-hidden="true">✦</span> CENTRAL DE SERVIÇOS EDUCACIONAIS</span>
+        <h1 id="teachers-title">Um espaço pensado para <em>quem orienta.</em></h1>
+        <p>Encontre documentos, formulários, orientações e recursos que apoiam o acompanhamento pedagógico e a gestão escolar.</p>
+        <div class="teachers-pills" aria-label="Informações sobre a área">
+          <span><span aria-hidden="true">▣</span> Documentos e pastas</span>
+          <span><span aria-hidden="true">▤</span> Formulários de acompanhamento</span>
+          <span><span aria-hidden="true">↗</span> Acesso a serviços externos</span>
+        </div>
+      </div>
+    </section>
+    <section class="teachers-section" aria-labelledby="resources-title">
+      <div class="container">
+        <div class="teachers-section-heading">
+          <div>
+            <span class="teachers-kicker">CENTRAL DOS ORIENTADORES</span>
+            <h2 id="resources-title">Encontre o que você precisa<span class="dot">.</span></h2>
+            <p>Selecione um recurso para acessar o material correspondente. Os links abrem em uma nova aba.</p>
+          </div>
+          <span class="teachers-counter" id="resourcesCount" aria-live="polite">Carregando...</span>
+        </div>
+        <div class="teachers-toolbar">
+          <label class="teachers-search" for="resourcesSearch"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg><input id="resourcesSearch" type="search" placeholder="Buscar por documento, formulário ou orientação..." autocomplete="off"></label>
+          <button type="button" class="teachers-clear" id="resourcesClear" hidden>Limpar busca ✕</button>
+        </div>
+        <div class="teachers-filters" role="group" aria-label="Filtrar recursos por categoria">
+          <button class="teachers-filter is-active" type="button" data-category="Todos" aria-pressed="true">Todos</button>
+          <button class="teachers-filter" type="button" data-category="Documentos" aria-pressed="false">Documentos</button>
+          <button class="teachers-filter" type="button" data-category="Formulários" aria-pressed="false">Formulários</button>
+          <button class="teachers-filter" type="button" data-category="Orientações" aria-pressed="false">Orientações</button>
+          <button class="teachers-filter" type="button" data-category="Sistemas" aria-pressed="false">Sistemas</button>
+          <button class="teachers-filter" type="button" data-category="Tutoriais" aria-pressed="false">Tutoriais</button>
+        </div>
+        <div class="teachers-grid" id="resourcesGrid" aria-live="polite"><p class="teachers-message">Carregando recursos...</p></div>
+        <div class="teachers-note"><span class="teachers-note-icon" aria-hidden="true">ⓘ</span><div><strong>Antes de acessar</strong><p>Alguns materiais podem exigir autenticação com a conta institucional. Verifique também as permissões de acesso às pastas compartilhadas.</p></div></div>
+      </div>
+    </section>
+  </main>
+  <div id="footer-container"></div>
+</body>
+</html>

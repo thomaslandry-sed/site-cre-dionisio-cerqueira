@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "titulo": "Materiais de Formação",
+    "categoria": "Documentos",
+    "descricao": "Consulte as pastas institucionais com modelos, comunicados e documentos de apoio às atividades escolares.",
+    "icone": "drive",
+    "cor": "verde",
+    "url": "",
+    "publicado": true
+  },
+  {
+    "id": 2,
+    "titulo": "Formulários institucionais",
+    "categoria": "Formulários",
+    "descricao": "Acesse formulários destinados a solicitações, registros e levantamentos realizados pela Coordenadoria.",
+    "icone": "forms",
+    "cor": "roxo",
+    "url": "",
+    "publicado": true
+  },
+  {
+    "id": 3,
+    "titulo": "Letramento Digital - Inteligência Artificial",
+    "categoria": "Website",
+    "descricao": "Encontre orientações, materiais de referência e sugestões para apoiar o planejamento das aulas.",
+    "icone": "website",
+    "cor": "oceano",
+    "url": "https://thomaslandry-sed.github.io/site-letramento-digital/",
+    "publicado": true
+  },
+  {
+    "id": 4,
+    "titulo": "Educação Digital",
+    "categoria": "Website",
+    "descricao": "Acesse documentos e orientações relacionados ao planejamento e à organização pedagógica.",
+    "icone": "website",
+    "cor": "azul",
+    "url": "https://thomaslandry-sed.github.io/site-letramento-digital/videos-workspace.html",
+    "publicado": true
+  },
+  {
+    "id": 5,
+    "titulo": "Dicas Google",
+    "categoria": "Sistemas",
+    "descricao": "Consulte os sistemas e plataformas utilizados em processos e atividades da rede de ensino.",
+    "icone": "screen",
+    "cor": "floresta",
+    "url": "",
+    "publicado": true
+  },
+  {
+    "id": 6,
+    "titulo": "Tutoriais Reds",
+    "categoria": "Materiais",
+    "descricao": "Acesse instruções e materiais de apoio para procedimentos frequentes da rotina escolar.",
+    "icone": "tutorial",
+    "cor": "dourado",
+    "url": "",
+    "publicado": true
+  }
+]

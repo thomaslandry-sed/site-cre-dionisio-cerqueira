@@ -1,0 +1,31 @@
+PORTAL CRE - ESTRUTURA COM COMPONENTES COMPARTILHADOS
+
+index.html                Página inicial
+components/header.html    Faixa institucional + menu único
+components/footer.html    Rodapé único
+css/styles.css            Estilos de todas as páginas
+js/components.js          Carrega header/footer e marca página ativa
+js/script.js              Notícias, filtros, carrossel e interações da home
+data/noticias.json        Notícias de demonstração
+assets/bandeira-sc.png    Imagem fornecida para a faixa institucional
+
+COMO EXECUTAR
+Abra a pasta no VS Code e inicie um servidor local (por exemplo Live Server).
+Não abra index.html com file:// porque o navegador bloqueia fetch() de arquivos locais.
+No GitHub Pages funciona normalmente com caminhos relativos.
+
+PARA CRIAR OUTRAS PÁGINAS
+1. Repita o <head> da index.html (CSS e os dois scripts, se a página precisar dos recursos).
+2. Coloque <div id="header-container"></div> após o link de acessibilidade.
+3. Coloque seu <main id="conteudo"> ... </main>.
+4. Coloque <div id="footer-container"></div> depois do main.
+5. Em páginas sem notícias, use js/components.js apenas. Ele cuida do menu.
+6. Os caminhos acima são relativos à raiz: páginas em subpastas requerem ajustar os caminhos
+   ou usar URLs absolutas do repositório.
+
+NOTAS
+As páginas professores.html, orientadores.html e eventos.html ainda serão desenvolvidas;
+o menu aponta para seus futuros destinos. O mapa e notícias são demonstrativos.
+A integração com o Google Sheets / GitHub Actions ainda não foi implementada.
+
+CORREÇÃO: a home inicia independentemente dos componentes e as seções ficam visíveis mesmo se houver erro de JavaScript.

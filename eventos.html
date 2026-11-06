@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1a6454">
+  <meta name="description" content="Agenda, notícias e registros de eventos da Coordenadoria Regional de Educação.">
+  <title>Eventos | Coordenadoria Regional de Educação</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/eventos.css">
+  <script defer src="js/components.js"></script>
+  <script defer src="js/eventos.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div id="header-container"></div>
+  <main id="conteudo">
+    <section class="events-hero">
+      <div class="container events-hero-grid">
+        <div>
+          <div class="events-label"><span class="events-label-dot"></span> CONEXÕES QUE TRANSFORMAM</div>
+          <h1>Nossos encontros,<br><em>nossas histórias.</em></h1>
+          <p>Acompanhe a agenda de atividades da Coordenadoria e conheça os eventos que fortalecem a comunidade escolar.</p>
+          <div class="events-hero-actions">
+            <a href="#eventos-lista" class="btn btn-primary">Explorar eventos <span aria-hidden="true">↗</span></a>
+            <a href="#agenda" class="events-agenda-link">Ver agenda completa <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <div class="events-hero-visual" aria-hidden="true">
+          <div class="events-hero-photo"></div>
+          <div class="events-float"><span class="events-float-icon">✦</span><div><strong>Educação em movimento</strong><span>Encontros que inspiram</span></div></div>
+        </div>
+      </div>
+    </section>
+    <section id="eventos-lista" class="section events-section">
+      <div class="container">
+        <div class="events-title-row"><div><div class="section-kicker">ACONTECE NA NOSSA REDE</div><h2>Eventos e atividades<span class="period">.</span></h2><p>Registros, fotografias e informações sobre as ações da Coordenadoria.</p></div><div class="events-count" id="eventsCount">Carregando eventos...</div></div>
+        <div class="events-controls" role="group" aria-label="Filtrar eventos">
+          <button class="events-filter is-active" data-filter="todos" type="button" aria-pressed="true">Todos</button>
+          <button class="events-filter" data-filter="futuros" type="button" aria-pressed="false">Próximos</button>
+          <button class="events-filter" data-filter="realizados" type="button" aria-pressed="false">Realizados</button>
+          <label class="events-search"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg><input id="eventsSearch" type="search" placeholder="Buscar evento..." aria-label="Buscar eventos"></label>
+        </div>
+        <div id="eventsGrid" class="events-grid" aria-live="polite"><p class="events-empty">Carregando eventos...</p></div>
+        <p class="events-demo-note">Os eventos e as imagens exibidos inicialmente são exemplos ilustrativos. Substitua pelos registros oficiais da Coordenadoria.</p>
+      </div>
+    </section>
+    <section id="agenda" class="section events-calendar-section">
+      <div class="container">
+        <div class="events-title-row"><div><div class="section-kicker">PROGRAME-SE</div><h2>Agenda da Coordenadoria<span class="period">.</span></h2><p>Consulte os compromissos e as atividades programadas em um só lugar.</p></div></div>
+        <div class="calendar-shell">
+          <div class="calendar-main">
+            <div class="calendar-head"><span class="calendar-tag"><span class="calendar-online-dot"></span> GOOGLE CALENDAR</span><span class="calendar-tip">Visualização mensal e semanal</span></div>
+            <div id="calendarEmbed" class="calendar-embed" aria-label="Calendário de eventos">
+              <div class="calendar-placeholder"><span class="calendar-placeholder-icon" aria-hidden="true">▦</span><h3>Agenda institucional</h3><p>O calendário da Coordenadoria aparecerá aqui após você inserir o ID do Google Agenda no arquivo <strong>js/eventos.js</strong>.</p></div>
+            </div>
+          </div>
+          <aside class="calendar-aside"><div class="calendar-aside-symbol">↗</div><h3>Não perca nenhuma atividade.</h3><p>Formações, encontros, reuniões e ações das escolas reunidos em uma agenda para consulta rápida.</p><div class="calendar-divider"></div><div class="calendar-aside-tip"><span>01</span><p>Acesse as datas diretamente no calendário.</p></div><div class="calendar-aside-tip"><span>02</span><p>Use as opções do Google Agenda para alternar a visualização.</p></div><div class="calendar-aside-tip"><span>03</span><p>Consulte os detalhes e horários de cada compromisso.</p></div><a id="calendarExternalLink" href="https://calendar.google.com/" target="_blank" rel="noopener noreferrer" class="calendar-external">Abrir Google Agenda <span aria-hidden="true">↗</span></a></aside>
+        </div>
+      </div>
+    </section>
+    <section class="events-closing"><div class="container events-closing-inner"><div><span>PARTICIPE DA NOSSA REDE</span><h2>Cada encontro cria novas possibilidades.</h2><p>Confira os próximos eventos e acompanhe as iniciativas da educação em nossa região.</p></div><a href="#eventos-lista" class="events-closing-link">Ver eventos <span aria-hidden="true">↑</span></a></div></section>
+  </main>
+  <div id="footer-container"></div>
+</body>
+</html>

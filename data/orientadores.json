@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "titulo": "Formulário de Registro de Atividades",
+    "categoria": "Formulários",
+    "descricao": "Pastas compartilhadas com modelos, registros e documentos de apoio às atividades de orientação educacional.",
+    "icone": "forms",
+    "cor": "verde",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdpCK7OQtOsBxTAOXeGhTRq6EHocp1Om6vAm5UR4IMGa-a20Q/viewform",
+    "publicado": true
+  },
+  {
+    "id": 2,
+    "titulo": "Sequências Didáticas Tecnologias (Informática)",
+    "categoria": "Documentos",
+    "descricao": "Acesse formulários destinados aos registros e ao acompanhamento das atividades das unidades escolares.",
+    "icone": "drive",
+    "cor": "roxo",
+    "url": "https://drive.google.com/drive/folders/1NzVMl34GSrbzYAPRxer1pPTfgj5njLE-",
+    "publicado": true
+  },
+  {
+    "id": 3,
+    "titulo": "Sequências Didáticas Maker",
+    "categoria": "Documentos",
+    "descricao": "Materiais e diretrizes de apoio ao acompanhamento pedagógico, ao planejamento e às ações nas escolas.",
+    "icone": "drive",
+    "cor": "oceano",
+    "url": "https://drive.google.com/drive/folders/1u6o7wQEBolyi2qfw-Z6HLtKQzo1bMM3Q",
+    "publicado": true
+  },
+  {
+    "id": 4,
+    "titulo": "Cronogramas e reuniões",
+    "categoria": "Documentos",
+    "descricao": "Consulte documentos, pautas e cronogramas de encontros e atividades de orientação.",
+    "icone": "drive",
+    "cor": "azul",
+    "url": "https://drive.google.com/drive/folders/1d1tUHOP8oO5zfxMLW5gQHuhHEF4t088v",
+    "publicado": true
+  },
+  {
+    "id": 5,
+    "titulo": "Modelo e Termo",
+    "categoria": "Documentos",
+    "descricao": "Acesse plataformas e sistemas utilizados nos procedimentos e no acompanhamento escolar.",
+    "icone": "docs",
+    "cor": "floresta",
+    "url": "https://sites.google.com/sed.sc.gov.br/tecnologiaseducacionaissc/inova-sc/modelo",
+    "publicado": true
+  },
+  {
+    "id": 6,
+    "titulo": "Tutoriais",
+    "categoria": "Tutoriais",
+    "descricao": "Encontre instruções, comunicados e referências para procedimentos recorrentes.",
+    "icone": "tutorial",
+    "cor": "dourado",
+    "url": "",
+    "publicado": true
+  }
+]

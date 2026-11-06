@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "titulo": "Encontro de Formação Continuada",
+    "descricao": "Momento de estudo, troca de experiências e fortalecimento das práticas pedagógicas entre profissionais da rede.",
+    "categoria": "Formação",
+    "data": "2026-11-12",
+    "local": "Local a confirmar",
+    "imagem": "https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=1100&q=85",
+    "status": "Publicado",
+    "link": ""
+  },
+  {
+    "id": 2,
+    "titulo": "Mostra de Projetos Educacionais",
+    "descricao": "Espaço dedicado à apresentação de experiências e projetos desenvolvidos nas unidades escolares.",
+    "categoria": "Projetos",
+    "data": "2026-11-20",
+    "local": "Local a confirmar",
+    "imagem": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1100&q=85",
+    "status": "Publicado",
+    "link": ""
+  },
+  {
+    "id": 3,
+    "titulo": "Reunião Regional de Orientadores",
+    "descricao": "Encontro para alinhamentos, planejamento e compartilhamento de estratégias de acompanhamento escolar.",
+    "categoria": "Encontro",
+    "data": "2026-12-04",
+    "local": "Local a confirmar",
+    "imagem": "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=1100&q=85",
+    "status": "Publicado",
+    "link": ""
+  },
+  {
+    "id": 4,
+    "titulo": "Jornada de Integração Escolar",
+    "descricao": "Atividades e diálogos que valorizam a colaboração entre escolas e profissionais da educação.",
+    "categoria": "Comunidade",
+    "data": "2026-10-16",
+    "local": "Local a confirmar",
+    "imagem": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1100&q=85",
+    "status": "Publicado",
+    "link": ""
+  },
+  {
+    "id": 5,
+    "titulo": "Oficina de Tecnologias Educacionais",
+    "descricao": "Oficina prática sobre uso de ferramentas digitais e oportunidades de inovação no ensino.",
+    "categoria": "Tecnologia",
+    "data": "2026-09-22",
+    "local": "Local a confirmar",
+    "imagem": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=1100&q=85",
+    "status": "Publicado",
+    "link": ""
+  },
+  {
+    "id": 6,
+    "titulo": "Encontro de Planejamento Pedagógico",
+    "descricao": "Discussões e planejamento coletivo de ações voltadas à aprendizagem e ao trabalho escolar.",
+    "categoria": "Planejamento",
+    "data": "2026-08-14",
+    "local": "Local a confirmar",
+    "imagem": "https://images.unsplash.com/photo-1544531586-fde5298cdd40?auto=format&fit=crop&w=1100&q=85",
+    "status": "Publicado",
+    "link": ""
+  }
+]
