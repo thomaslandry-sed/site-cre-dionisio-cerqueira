@@ -1,0 +1,1100 @@
+
+/* =========================================================
+   PORTAL CRE DIONÍSIO CERQUEIRA
+   HEADER INSTITUCIONAL VERDE
+   ========================================================= */
+
+
+/* =========================================================
+   1. ESTRUTURA PRINCIPAL
+   ========================================================= */
+
+.site-header.cre-green-header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+
+  background: linear-gradient(
+    113deg,
+    #004b3e 0%,
+    #086c57 48%,
+    #004a3c 100%
+  );
+
+  color: #ffffff;
+  border: 0;
+
+  box-shadow: 0 10px 28px rgba(1, 55, 42, 0.13);
+
+  isolation: isolate;
+}
+
+
+/* Efeito geométrico no fundo */
+
+.cre-green-header::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+
+  pointer-events: none;
+
+  background: linear-gradient(
+    125deg,
+    transparent 0 33%,
+    rgba(0, 38, 32, 0.14) 33% 51%,
+    transparent 51%
+  );
+}
+
+
+/* Detalhe vermelho na parte inferior */
+
+.cre-green-header::after {
+  content: "";
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 58%;
+
+  height: 3px;
+
+  pointer-events: none;
+
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #e52233 47%,
+    #f24650
+  );
+}
+
+
+/* =========================================================
+   2. CONTAINER DO HEADER
+   ========================================================= */
+
+.cre-green-header .cre-header-inner {
+  display: flex;
+  align-items: center;
+
+  min-height: 88px;
+  height: auto;
+
+  padding-block: 14px;
+
+  gap: clamp(12px, 2vw, 28px);
+}
+
+
+/* =========================================================
+   3. IDENTIDADE INSTITUCIONAL
+   ========================================================= */
+
+.cre-green-header .cre-header-brand {
+  display: flex;
+  align-items: center;
+
+  flex: 0 1 auto;
+
+  gap: 13px;
+
+  min-width: 0;
+
+  color: #ffffff;
+}
+
+
+/* Bandeira de Santa Catarina */
+
+.cre-green-header .cre-header-flag {
+  width: 65px;
+  height: 54px;
+
+  object-fit: contain;
+
+  flex: none;
+
+  filter: drop-shadow(
+    0 5px 9px rgba(0, 0, 0, 0.14)
+  );
+}
+
+
+/* Linha divisória ao lado da bandeira */
+
+.cre-green-header .cre-header-divider {
+  width: 2px;
+  height: 49px;
+
+  flex: none;
+
+  background: rgba(255, 255, 255, 0.78);
+}
+
+
+/* Nome da Coordenadoria */
+
+.cre-green-header .cre-header-name {
+  display: grid;
+
+  gap: 2px;
+
+  color: #ffffff;
+
+  line-height: 1.25;
+
+  white-space: nowrap;
+}
+
+
+.cre-green-header .cre-header-name > span {
+  font-size: clamp(11px, 1.02vw, 15px);
+  font-weight: 600;
+}
+
+
+.cre-green-header .cre-header-name strong {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+
+  color: #ffffff;
+
+  font-size: clamp(15px, 1.3vw, 20px);
+
+  font-weight: 800;
+
+  letter-spacing: -0.035em;
+}
+
+
+/* =========================================================
+   4. MENU DE NAVEGAÇÃO
+   ========================================================= */
+
+.cre-green-header .cre-header-nav {
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-end;
+
+  height: auto;
+
+  gap: clamp(8px, 1.35vw, 19px);
+
+  margin-left: auto;
+}
+
+
+/* Links do menu */
+
+.cre-green-header .cre-header-nav a {
+  position: relative;
+
+  height: auto;
+
+  padding: 9px 0;
+
+  color: #effbf5;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  white-space: nowrap;
+
+  transition: color 0.2s ease;
+}
+
+
+/* Efeito ao passar o mouse */
+
+.cre-green-header .cre-header-nav a:hover,
+.cre-green-header .cre-header-nav a.active,
+.cre-green-header .cre-header-nav a[aria-current="page"] {
+  color: #ffffff;
+}
+
+
+/* Indicador vermelho da página ativa */
+
+.cre-green-header .cre-header-nav a.active::after,
+.cre-green-header .cre-header-nav a[aria-current="page"]::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  height: 3px;
+
+  border-radius: 4px;
+
+  background: #f33343;
+}
+
+
+/* =========================================================
+   5. AÇÕES DO HEADER
+   ========================================================= */
+
+.cre-green-header .cre-header-actions {
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+
+  flex: none;
+}
+
+
+/* Botão Redes Sociais */
+
+.cre-green-header .cre-header-social {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 9px;
+
+  padding: 11px 14px;
+
+  border-radius: 999px;
+
+  color: #ffffff;
+
+  background: linear-gradient(
+    135deg,
+    #269b7b,
+    #087255
+  );
+
+  border: 1px solid rgba(255, 255, 255, 0.14);
+
+  font-size: 12px;
+  font-weight: 800;
+
+  white-space: nowrap;
+
+  box-shadow: 0 8px 18px rgba(0, 37, 26, 0.14);
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+
+/* Animação do botão */
+
+.cre-green-header .cre-header-social:hover {
+  transform: translateY(-2px);
+
+  background: #2a9a79;
+}
+
+
+.cre-green-header .cre-header-social svg {
+  width: 19px;
+  height: 19px;
+
+  stroke-width: 1.9;
+}
+
+
+/* =========================================================
+   6. BOTÕES DE BUSCA E MENU MOBILE
+   ========================================================= */
+
+.cre-green-header .cre-header-search,
+.cre-green-header .cre-header-menu {
+  width: 39px;
+  height: 39px;
+
+  border: 1px solid rgba(255, 255, 255, 0.23);
+
+  border-radius: 12px;
+
+  color: #ffffff;
+
+  background: rgba(255, 255, 255, 0.12);
+}
+
+
+.cre-green-header .cre-header-search:hover,
+.cre-green-header .cre-header-menu:hover {
+  background: rgba(255, 255, 255, 0.23);
+}
+
+
+.cre-green-header .cre-header-search[hidden] {
+  display: none;
+}
+
+
+/* Menu mobile inicialmente oculto */
+
+.cre-green-header .cre-header-menu {
+  display: none;
+}
+
+
+/* =========================================================
+   7. PAINEL DE BUSCA
+   ========================================================= */
+
+.cre-green-header .cre-header-search-panel {
+  margin-left: auto;
+
+  padding: 12px 0 16px;
+
+  color: #ffffff;
+}
+
+
+.cre-green-header .cre-header-search-panel[hidden] {
+  display: none;
+}
+
+
+.cre-green-header .cre-header-search-panel .search-field {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+
+  background: #ffffff;
+
+  color: #154538;
+}
+
+
+.cre-green-header .cre-header-search-panel p {
+  color: #d1eadd;
+}
+
+
+/* =========================================================
+   8. MENU MOBILE
+   ========================================================= */
+
+.cre-green-header .cre-header-mobile {
+  display: none;
+}
+
+
+.cre-green-header .cre-header-mobile[hidden] {
+  display: none !important;
+}
+
+
+/* =========================================================
+   9. ACESSIBILIDADE
+   ========================================================= */
+
+.cre-green-header a:focus-visible,
+.cre-green-header button:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 4px;
+}
+
+
+/* =========================================================
+   10. RESPONSIVIDADE - TABLETS
+   ========================================================= */
+
+@media (max-width: 1200px) {
+
+  /* Oculta menu desktop */
+
+  .cre-green-header .cre-header-nav {
+    display: none;
+  }
+
+
+  /* Exibe botão de menu */
+
+  .cre-green-header .cre-header-menu {
+    display: grid;
+    place-items: center;
+  }
+
+
+  .cre-green-header .cre-header-brand {
+    margin-right: auto;
+  }
+
+
+  /* Menu expandido */
+
+  .cre-green-header .cre-header-mobile:not([hidden]) {
+    display: grid;
+
+    grid-template-columns: repeat(
+      3,
+      minmax(0, 1fr)
+    );
+
+    gap: 6px;
+
+    padding: 13px max(
+      24px,
+      calc((100% - 1160px) / 2)
+    ) 19px;
+
+    background: #064c3e;
+
+    border-top: 1px solid rgba(
+      255,
+      255,
+      255,
+      0.15
+    );
+  }
+
+
+  .cre-green-header .cre-header-mobile a {
+    color: #ffffff;
+
+    padding: 9px 11px;
+
+    border-radius: 9px;
+
+    font-weight: 650;
+  }
+
+
+  .cre-green-header .cre-header-mobile a:hover,
+  .cre-green-header .cre-header-mobile a[aria-current="page"] {
+    background: rgba(255, 255, 255, 0.13);
+  }
+
+}
+
+
+/* =========================================================
+   11. RESPONSIVIDADE - CELULARES
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+  .cre-green-header .cre-header-inner {
+    min-height: 72px;
+
+    padding-block: 10px;
+
+    gap: 8px;
+  }
+
+
+  /* Bandeira menor */
+
+  .cre-green-header .cre-header-flag {
+    width: 46px;
+    height: 42px;
+  }
+
+
+  .cre-green-header .cre-header-divider {
+    height: 38px;
+  }
+
+
+  /* Nome institucional */
+
+  .cre-green-header .cre-header-name > span {
+    font-size: 9px;
+
+    white-space: normal;
+  }
+
+
+  .cre-green-header .cre-header-name strong {
+    font-size: 12px;
+
+    white-space: normal;
+  }
+
+
+  /* Botão redes sociais compacto */
+
+  .cre-green-header .cre-header-social {
+    width: 39px;
+    height: 39px;
+
+    padding: 9px;
+  }
+
+
+  .cre-green-header .cre-header-social span {
+    display: none;
+  }
+
+
+  /* Oculta busca no celular */
+
+  .cre-green-header .cre-header-search {
+    display: none;
+  }
+
+
+  /* Menu com duas colunas */
+
+  .cre-green-header .cre-header-mobile:not([hidden]) {
+    grid-template-columns: repeat(
+      2,
+      minmax(0, 1fr)
+    );
+  }
+
+}
+
+
+/* =========================================================
+   12. CELULARES PEQUENOS
+   ========================================================= */
+
+@media (max-width: 390px) {
+
+  .cre-green-header .cre-header-name > span {
+    font-size: 8px;
+  }
+
+
+  .cre-green-header .cre-header-name strong {
+    font-size: 11px;
+  }
+
+
+  .cre-green-header .cre-header-search {
+    display: none;
+  }
+
+}
+
+
+/* =========================================================
+   13. REDUÇÃO DE MOVIMENTO
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .cre-green-header .cre-header-social {
+    transition: none;
+  }
+
+}
+
+
+/* =========================================
+   HEADER FIXO + BARRA DE PROGRESSO
+   ========================================= */
+
+/* Mantém o cabeçalho visível ao rolar */
+#header-container {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+/* O posicionamento fica sob responsabilidade
+   do contêiner, e não do header interno */
+#header-container .site-header.cre-green-header {
+  position: relative;
+  top: auto;
+}
+
+/* Barra vermelha no topo */
+.cre-scroll-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 4px;
+
+  background: linear-gradient(
+    90deg,
+    #d71920,
+    #ed3342,
+    #ff5560
+  );
+
+  transform: scaleX(0);
+  transform-origin: left center;
+
+  z-index: 1002;
+  pointer-events: none;
+
+  box-shadow: 0 0 8px rgba(215, 25, 32, 0.35);
+
+  will-change: transform;
+}
+
+
+/* ==========================================
+   HEADER FIXO E PROGRESSO DE LEITURA
+   ========================================== */
+
+#header-container {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1100;
+}
+
+#header-container .cre-green-header {
+  position: relative;
+  top: auto;
+}
+
+/* Barra de progresso vermelha */
+
+.cre-green-header .cre-scroll-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1200;
+
+  width: 100%;
+  height: 4px;
+
+  background: linear-gradient(
+    90deg,
+    #d71920,
+    #ed3342,
+    #ff5963
+  );
+
+  transform: scaleX(0);
+  transform-origin: left center;
+
+  pointer-events: none;
+}
+
+
+/* ==========================================
+   MENU HAMBÚRGUER À ESQUERDA
+   ========================================== */
+
+@media (max-width: 1200px) {
+
+  .cre-green-header .cre-header-menu {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    order: 0;
+  }
+
+  .cre-green-header .cre-header-brand {
+    order: 1;
+    margin-right: auto;
+  }
+
+  .cre-green-header .cre-header-actions {
+    order: 2;
+  }
+
+  /* Gaveta aberta pela esquerda */
+
+  .cre-green-header .cre-header-mobile:not([hidden]) {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: auto;
+
+    width: min(360px, 88vw);
+    height: 100dvh;
+
+    z-index: 1195;
+
+    animation:
+      creMenuEsquerda .3s ease both;
+  }
+
+}
+
+@keyframes creMenuEsquerda {
+  from {
+    opacity: .8;
+    transform: translateX(-100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+/* ==========================================
+   MENU LATERAL MOBILE - CRE
+   ========================================== */
+
+/* Bloqueia rolagem quando o menu abre */
+
+body.cre-menu-open {
+  overflow: hidden;
+}
+
+/* Fundo escuro */
+
+.cre-menu-overlay {
+  position: fixed;
+  inset: 0;
+
+  z-index: 2000;
+
+  background: rgba(0, 28, 22, 0.65);
+
+  backdrop-filter: blur(4px);
+}
+
+.cre-menu-overlay[hidden] {
+  display: none !important;
+}
+
+/* O menu permanece oculto quando fechado */
+
+#mobileNav[hidden] {
+  display: none !important;
+}
+
+/* Oculta a gaveta no desktop */
+
+@media (min-width: 1201px) {
+  #mobileNav {
+    display: none !important;
+  }
+}
+
+/* ==========================================
+   MENU PARA CELULARES E TABLETS
+   ========================================== */
+
+@media (max-width: 1200px) {
+
+  #mobileNav.cre-header-mobile:not([hidden]) {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+
+    z-index: 2001;
+
+    display: flex !important;
+    flex-direction: column;
+
+    width: min(350px, 88vw);
+
+    height: 100vh;
+    height: 100dvh;
+
+    padding: 0;
+
+    margin: 0;
+
+    overflow-y: auto;
+
+    border: none;
+    border-radius: 0;
+
+    background: linear-gradient(
+      155deg,
+      #086b55 0%,
+      #07503f 55%,
+      #003b30 100%
+    );
+
+    color: white;
+
+    box-shadow: 15px 0 45px rgba(0,0,0,.25);
+
+    animation: creMenuEntrar .3s ease both;
+  }
+
+  /* Cabeçalho do menu */
+
+  #mobileNav .cre-menu-topo {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 25px 22px;
+
+    border-bottom: 1px solid
+      rgba(255,255,255,.18);
+
+    border-top: 4px solid #d71920;
+  }
+
+  #mobileNav .cre-menu-topo strong {
+    color: white;
+    font-size: 17px;
+    font-weight: 800;
+  }
+
+  /* Botão fechar */
+
+  #mobileNav .cre-menu-fechar {
+
+    display: grid;
+    place-items: center;
+
+    width: 38px;
+    height: 38px;
+
+    padding: 0;
+
+    border: 1px solid
+      rgba(255,255,255,.25);
+
+    border-radius: 10px;
+
+    background: rgba(255,255,255,.1);
+
+    color: white;
+
+    font-size: 29px;
+
+    cursor: pointer;
+  }
+
+  /* Links de navegação */
+
+  #mobileNav > a {
+
+    display: flex !important;
+    align-items: center;
+
+    min-height: 52px;
+
+    margin: 4px 15px;
+
+    padding: 12px 16px;
+
+    border-radius: 11px;
+
+    color: #ffffff !important;
+
+    font-size: 15px;
+    font-weight: 650;
+
+    text-decoration: none;
+
+    transition:
+      background .2s,
+      transform .2s;
+  }
+
+  /* Efeito hover */
+
+  #mobileNav > a:hover,
+  #mobileNav > a.active,
+  #mobileNav > a[aria-current="page"] {
+
+    background: rgba(255,255,255,.15);
+
+    color: white !important;
+
+    transform: translateX(4px);
+  }
+
+}
+
+/* Animação de entrada */
+
+@keyframes creMenuEntrar {
+
+  from {
+    opacity: .7;
+    transform: translateX(-100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #mobileNav {
+    animation: none !important;
+  }
+}
+
+/* Cole ao final de css/header.css */
+
+.cre-menu-dialog {
+  position: fixed;
+  inset: 0 auto 0 0;
+  width: min(360px, 90vw);
+  max-width: 90vw;
+  height: 100dvh;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0 18px 18px 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  background: linear-gradient(155deg, #086b55, #07503f 55%, #003b30);
+  color: white;
+  box-shadow: 15px 0 45px rgba(0,0,0,.24);
+  animation: creEntrarEsquerda .26s ease both;
+}
+.cre-menu-dialog:not([open]) { display: none; }
+.cre-menu-dialog::backdrop {
+  background: rgba(0, 28, 22, .64);
+  backdrop-filter: blur(4px);
+}
+.cre-menu-dialog__painel {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.cre-menu-dialog__topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 27px 22px 22px;
+  border-top: 4px solid #d71920;
+  border-bottom: 1px solid rgba(255,255,255,.19);
+}
+.cre-menu-dialog__topo strong {
+  color: white;
+  font: 800 18px/1.35 'Plus Jakarta Sans', sans-serif;
+}
+.cre-menu-dialog__fechar {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  padding: 0;
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 11px;
+  background: rgba(255,255,255,.12);
+  color: white;
+  font-size: 29px;
+  cursor: pointer;
+}
+.cre-menu-dialog__links {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px 15px;
+  flex: 1;
+}
+.cre-menu-dialog__links a {
+  display: flex;
+  align-items: center;
+  min-height: 49px;
+  padding: 12px 16px;
+  border-radius: 11px;
+  color: #fff;
+  font: 650 15px/1.5 'DM Sans', sans-serif;
+  text-decoration: none;
+}
+.cre-menu-dialog__links a:hover,
+.cre-menu-dialog__links a[aria-current='page'] {
+  background: rgba(255,255,255,.16);
+  color: white;
+}
+.cre-menu-dialog__rodape {
+  padding: 18px 21px 23px;
+  border-top: 1px solid rgba(255,255,255,.16);
+  color: #c9e6d8;
+  font-size: 12px;
+}
+@keyframes creEntrarEsquerda {
+  from { transform: translateX(-100%); opacity: .65; }
+  to { transform: translateX(0); opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cre-menu-dialog { animation: none; }
+}
+
+
+
+/* ==========================================
+   BANDEIRA INTERATIVA DO HEADER
+   ========================================== */
+
+.cre-green-header .cre-header-flag {
+  position: relative;
+  display: block;
+
+  transform:
+    perspective(500px)
+    rotateX(var(--flag-x, 0deg))
+    rotateY(var(--flag-y, 0deg))
+    translateY(0)
+    scale(1);
+
+  transform-style: preserve-3d;
+
+  filter:
+    drop-shadow(0 4px 6px rgba(0, 0, 0, .15));
+
+  transition:
+    transform .35s ease,
+    filter .35s ease;
+
+  will-change: transform;
+}
+
+/* Quando o mouse passa sobre a bandeira */
+
+.cre-green-header .cre-header-flag:hover {
+  transform:
+    perspective(500px)
+    rotateX(var(--flag-x, 0deg))
+    rotateY(var(--flag-y, 0deg))
+    translateY(-3px)
+    scale(1.09);
+
+  filter:
+    brightness(1.1)
+    drop-shadow(0 9px 14px rgba(0, 0, 0, .22));
+}
+
+/* Indica que a identidade é clicável */
+
+.cre-green-header .cre-header-brand {
+  cursor: pointer;
+}
+
+/* Efeito ao pressionar */
+
+.cre-green-header .cre-header-brand:active
+.cre-header-flag {
+  transform: scale(.96);
+  transition-duration: .12s;
+}
+
+/* Destaque quando acessado pelo teclado */
+
+.cre-green-header .cre-header-brand:focus-visible
+.cre-header-flag {
+  filter:
+    brightness(1.1)
+    drop-shadow(0 0 10px rgba(255,255,255,.45));
+}
+
+/* Respeita preferências de acessibilidade */
+
+@media (prefers-reduced-motion: reduce) {
+  .cre-green-header .cre-header-flag {
+    transition: none;
+    transform: none !important;
+  }
+}

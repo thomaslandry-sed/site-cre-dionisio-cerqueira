@@ -1,26 +1,43 @@
 [
   {
-    "id": "979aeb72-0a80-43ba-bda7-6fa316762af5",
-    "titulo": "noticia teste 2",
-    "resumo": "43243243 324324324 423423 432 23432",
-    "conteudo": "dasdas as afafasf ab 22 b 322  das",
+    "id": "formacao-continuada",
+    "titulo": "Formação continuada amplia oportunidades de aprendizagem",
+    "resumo": "Encontros formativos promovem a troca de experiências e fortalecem as práticas pedagógicas na rede.",
+    "conteudo": "Este é um texto de demonstração para representar uma notícia da Coordenadoria Regional de Educação. Quando o portal estiver conectado à planilha, o conteúdo real virá do Google Sheets.\n\nAs notícias poderão incluir informações sobre encontros, ações formativas, inscrições e iniciativas das escolas.",
     "categoria": "Formação",
-    "imagem": "assets/noticias/cre-drive-19hImIANlhGBhBx9dQ_yIqde8wRuwEmjF.png",
-    "data": "2026-11-12",
-    "status": "Publicado",
-    "destaque": false,
-    "autor": "jorge"
+    "data": "2026-11-03",
+    "imagem": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=85",
+    "destaque": true,
+    "status": "Publicado"
   },
   {
-    "id": "dfb59e73-3230-4bb4-9ef2-38403b397033",
-    "titulo": "teste news",
-    "resumo": "teste teste",
-    "conteudo": "teste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste testeteste teste",
+    "id": "projetos-na-escola",
+    "titulo": "Projetos escolares valorizam a criatividade dos estudantes",
+    "resumo": "Iniciativas desenvolvidas em sala de aula dão protagonismo aos estudantes e aproximam a comunidade escolar.",
+    "conteudo": "Notícia ilustrativa. Substitua este texto pelo conteúdo institucional verdadeiro.\n\nA página permite apresentar informações detalhadas e compartilhar um link específico para cada notícia.",
+    "categoria": "Projetos",
+    "data": "2026-10-28",
+    "imagem": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=85",
+    "status": "Publicado"
+  },
+  {
+    "id": "comunicado-institucional",
+    "titulo": "Comunicados e orientações disponíveis para as equipes escolares",
+    "resumo": "Confira os canais que irão centralizar documentos, formulários e informações para as escolas.",
+    "conteudo": "Notícia ilustrativa para testar o filtro de comunicados.\n\nNo projeto definitivo, este conteúdo será editado pela equipe responsável pela comunicação da Coordenadoria.",
     "categoria": "Comunicados",
-    "imagem": "assets/noticias/cre-drive-14O_sOTFJXkz65J0pmIwfIC7uXhuCvgam.png",
-    "data": "2026-11-12",
-    "status": "Publicado",
-    "destaque": false,
-    "autor": "thomas"
+    "data": "2026-10-22",
+    "imagem": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=1200&q=85",
+    "status": "Publicado"
+  },
+  {
+    "id": "educacao-tecnologia",
+    "titulo": "Tecnologia educacional aproxima práticas e possibilidades",
+    "resumo": "Recursos digitais ajudam equipes pedagógicas a compartilhar experiências e desenvolver novas estratégias.",
+    "conteudo": "Notícia de demonstração. Aqui você poderá publicar textos completos, imagens e informações adicionais.",
+    "categoria": "Projetos",
+    "data": "2026-10-15",
+    "imagem": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=85",
+    "status": "Publicado"
   }
 ]

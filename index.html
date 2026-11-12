@@ -14,6 +14,8 @@
     href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css"> 
   <script src="js/components.js" defer></script>
   <script src="js/script.js" defer></script>
 </head>
@@ -122,71 +124,48 @@
         </div>
       </div>
     </section>
-    <!-- REDES SOCIAIS: três cartões com igual destaque -->
+<!-- REDES SOCIAIS | versão compacta (preserva links oficiais) -->
     <section class="cre-social-section" id="redes-sociais" aria-labelledby="creSocialTitle">
-      <div class="container">
+      <div class="container cre-social-layout">
         <div class="cre-social-heading">
-          <div class="cre-social-heading-copy">
-            <span class="cre-social-kicker"><span aria-hidden="true"></span> CONECTE-SE COM A NOSSA REDE</span>
-            <h2 id="creSocialTitle">A educação também acontece <em>nas redes.</em></h2>
-            <p>Descubra histórias, projetos, comunicados e conteúdos da nossa comunidade escolar.</p>
-          </div>
+          <span class="cre-social-kicker"><span aria-hidden="true"></span> CONECTE-SE COM A NOSSA REDE</span>
+          <h2 id="creSocialTitle">Acompanhe a CRE <em>nas redes sociais.</em></h2>
+          <span class="cre-social-heading-rule" aria-hidden="true"></span>
+          <p>Siga nossos projetos, comunicados e conteúdos educacionais e fique por dentro das principais ações da nossa região.</p>
           <div class="cre-social-actions">
             <button class="cre-social-share" id="creSocialShare" type="button">
-              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <circle cx="18" cy="5" r="2.5"/><circle cx="5.5" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/>
-                <path d="m7.8 10.9 7.8-4.7M7.8 13.1l7.8 4.7"/>
-              </svg>
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="5.5" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m7.8 10.9 7.8-4.7M7.8 13.1l7.8 4.7"/></svg>
               Compartilhar portal
             </button>
             <span id="creSocialShareStatus" class="cre-social-share-status" role="status" aria-live="polite"></span>
           </div>
         </div>
-
-        <div class="cre-social-cards">
-          <a class="cre-social-card" data-platform="instagram" href="https://www.instagram.com/cre_dionisio_cerqueira/" target="_blank" rel="noopener noreferrer" aria-label="Abrir Instagram em uma nova aba">
+        <div class="cre-social-cards" aria-label="Redes sociais da CRE">
+          <a class="cre-social-card" data-platform="instagram" href="https://www.instagram.com/cre_dionisio_cerqueira/" target="_blank" rel="noopener noreferrer" aria-label="Visitar Instagram da CRE, abre em nova aba">
             <div class="cre-social-card-top">
-              <div class="cre-social-brand" aria-hidden="true">
-                <img src="assets/icons/footer-instagram.svg" alt="">
-              </div>
-              <span class="cre-social-index">01 / 03</span>
+              <span class="cre-social-brand" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none" focusable="false"><defs><linearGradient id="creIgGrad" x1="5" y1="43" x2="42" y2="5" gradientUnits="userSpaceOnUse"><stop stop-color="#FFB900"/><stop offset=".33" stop-color="#FF4B58"/><stop offset=".69" stop-color="#C126B7"/><stop offset="1" stop-color="#6549E6"/></linearGradient></defs><rect x="5" y="5" width="38" height="38" rx="11" stroke="url(#creIgGrad)" stroke-width="5"/><circle cx="24" cy="24" r="9" stroke="url(#creIgGrad)" stroke-width="4.4"/><circle cx="35" cy="13.5" r="3" fill="#C126B7"/></svg>
+              </span>
+              <span class="cre-social-tag">REDES CRE</span>
             </div>
-            <div class="cre-social-card-copy">
-              <span class="cre-social-tag">FOTOS E BASTIDORES</span>
-              <h3>Instagram</h3>
-              <p>Acompanhe registros, ações e momentos especiais da nossa rede de ensino.</p>
-            </div>
-            <span class="cre-social-card-link" aria-hidden="true">Visitar Instagram <span>↗</span></span>
+            <div class="cre-social-card-copy"><h3>Instagram</h3><p>Fotos, bastidores e registros da rede.</p></div>
+            <span class="cre-social-card-link" aria-hidden="true">Acessar <span>↗</span></span>
           </a>
-
-          <a class="cre-social-card" data-platform="facebook" href="https://www.facebook.com/p/Coordenadoria-Regional-de-Educa%C3%A7%C3%A3o-de-Dion%C3%ADsio-Cerqueira-100067846266923/" target="_blank" rel="noopener noreferrer" aria-label="Abrir Facebook em uma nova aba">
+          <a class="cre-social-card" data-platform="facebook" href="https://www.facebook.com/p/Coordenadoria-Regional-de-Educa%C3%A7%C3%A3o-de-Dion%C3%ADsio-Cerqueira-100067846266923/" target="_blank" rel="noopener noreferrer" aria-label="Visitar Facebook da CRE, abre em nova aba">
             <div class="cre-social-card-top">
-              <div class="cre-social-brand" aria-hidden="true">
-                <img src="assets/icons/footer-facebook.svg" alt="">
-              </div>
-              <span class="cre-social-index">02 / 03</span>
+              <span class="cre-social-brand" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" focusable="false"><rect x="5" y="5" width="38" height="38" rx="9" fill="#1976F3"/><path d="M27.1 41V26.7h5.1l.8-6.2h-5.9v-4c0-1.8.6-2.9 3-2.9h3.1V8.1c-.5-.1-2.4-.3-4.6-.3-4.6 0-7.7 2.8-7.7 8v4.7h-5.1v6.2h5.1V41h6.2Z" fill="#fff"/></svg></span>
+              <span class="cre-social-tag">REDES CRE</span>
             </div>
-            <div class="cre-social-card-copy">
-              <span class="cre-social-tag">COMUNIDADE E AVISOS</span>
-              <h3>Facebook</h3>
-              <p>Veja comunicados, iniciativas e novidades que conectam nossas escolas.</p>
-            </div>
-            <span class="cre-social-card-link" aria-hidden="true">Visitar Facebook <span>↗</span></span>
+            <div class="cre-social-card-copy"><h3>Facebook</h3><p>Comunicados e novidades da comunidade.</p></div>
+            <span class="cre-social-card-link" aria-hidden="true">Acessar <span>↗</span></span>
           </a>
-
-          <a class="cre-social-card" data-platform="youtube" href="https://www.youtube.com/@ntedionisiocerqueira" target="_blank" rel="noopener noreferrer" aria-label="Abrir YouTube em uma nova aba">
+          <a class="cre-social-card" data-platform="youtube" href="https://www.youtube.com/@ntedionisiocerqueira" target="_blank" rel="noopener noreferrer" aria-label="Visitar YouTube da CRE, abre em nova aba">
             <div class="cre-social-card-top">
-              <div class="cre-social-brand" aria-hidden="true">
-                <img src="assets/icons/footer-youtube.svg" alt="">
-              </div>
-              <span class="cre-social-index">03 / 03</span>
+              <span class="cre-social-brand" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" focusable="false"><rect x="3" y="11" width="42" height="26" rx="8" fill="#EC2029"/><path d="m21 17 13 7-13 7V17Z" fill="#fff"/></svg></span>
+              <span class="cre-social-tag">REDES CRE</span>
             </div>
-            <div class="cre-social-card-copy">
-              <span class="cre-social-tag">VÍDEOS E TUTORIAIS</span>
-              <h3>YouTube</h3>
-              <p>Explore vídeos, formações e conteúdos que apoiam a prática educacional.</p>
-            </div>
-            <span class="cre-social-card-link" aria-hidden="true">Visitar YouTube <span>↗</span></span>
+            <div class="cre-social-card-copy"><h3>YouTube</h3><p>Vídeos, formações e tutoriais.</p></div>
+            <span class="cre-social-card-link" aria-hidden="true">Acessar <span>↗</span></span>
           </a>
         </div>
       </div>

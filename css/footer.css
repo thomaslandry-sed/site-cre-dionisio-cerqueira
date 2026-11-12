@@ -1,0 +1,495 @@
+
+/* =========================================================
+   PORTAL CRE DIONÍSIO CERQUEIRA
+   FOOTER INSTITUCIONAL VERDE
+   ========================================================= */
+
+
+/* =========================================================
+   1. ESTRUTURA PRINCIPAL
+   ========================================================= */
+
+.site-footer.cre-forest-footer {
+  margin-top: 0;
+
+  background: transparent;
+
+  color: #ffffff;
+
+  overflow: hidden;
+
+  font-family: 'DM Sans', sans-serif;
+}
+
+
+/* =========================================================
+   2. ONDA SUPERIOR
+   ========================================================= */
+
+.cre-forest-footer .cre-footer-wave {
+  height: clamp(65px, 8vw, 115px);
+
+  line-height: 0;
+}
+
+
+.cre-forest-footer .cre-footer-wave svg {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+}
+
+
+/* =========================================================
+   3. FUNDO DO RODAPÉ
+   ========================================================= */
+
+.cre-forest-footer .cre-footer-body {
+  position: relative;
+
+  isolation: isolate;
+
+  background: linear-gradient(
+    110deg,
+    #005744,
+    #056c55 54%,
+    #004d3c
+  );
+}
+
+
+/* Efeito geométrico do fundo */
+
+.cre-forest-footer .cre-footer-body::before {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  z-index: -1;
+
+  pointer-events: none;
+
+  opacity: 0.45;
+
+  background: linear-gradient(
+    155deg,
+    transparent 0 24%,
+    rgba(0, 41, 33, 0.27) 24% 40%,
+    transparent 40% 75%,
+    rgba(0, 37, 29, 0.24) 75%
+  );
+}
+
+
+/* =========================================================
+   4. CONTAINER PRINCIPAL
+   ========================================================= */
+
+.site-footer.cre-forest-footer .cre-footer-main {
+  width: min(
+    1160px,
+    calc(100% - 48px)
+  );
+
+  display: grid;
+
+  grid-template-columns:
+    1.5fr
+    1.65fr
+    auto;
+
+  align-items: center;
+
+  gap: 28px;
+
+  padding: 23px 0 24px;
+
+  margin: 0 auto;
+}
+
+
+/* =========================================================
+   5. IDENTIDADE INSTITUCIONAL
+   ========================================================= */
+
+.cre-forest-footer .cre-footer-identity {
+  display: flex;
+
+  align-items: center;
+
+  gap: 13px;
+
+  min-width: 0;
+}
+
+
+/* Emblema SC */
+
+.site-footer.cre-forest-footer .cre-footer-mark {
+  width: 52px;
+  height: 52px;
+
+  flex: none;
+
+  display: grid;
+
+  place-items: center;
+
+  border: 0;
+
+  border-radius: 50%;
+
+  background: #e01e2b;
+
+  box-shadow: 0 8px 18px rgba(
+    0,
+    0,
+    0,
+    0.13
+  );
+
+  font:
+    800
+    18px/1
+    'Plus Jakarta Sans',
+    sans-serif;
+
+  color: #ffffff;
+}
+
+
+/* Nome da Coordenadoria */
+
+.site-footer.cre-forest-footer .cre-footer-identity strong {
+  color: #ffffff;
+
+  font:
+    800
+    13px/1.35
+    'Plus Jakarta Sans',
+    sans-serif;
+}
+
+
+/* Localização */
+
+.site-footer.cre-forest-footer .cre-footer-identity p {
+  margin: 4px 0 0;
+
+  color: #d5f1e4;
+
+  font-size: 12px;
+}
+
+
+/* =========================================================
+   6. LINKS DO RODAPÉ
+   ========================================================= */
+
+.site-footer.cre-forest-footer .cre-footer-nav {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  gap: 12px 17px;
+}
+
+
+.site-footer.cre-forest-footer .cre-footer-nav a {
+  color: #effcf5;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  transition: color 0.2s ease;
+}
+
+
+/* Efeito hover */
+
+.site-footer.cre-forest-footer .cre-footer-nav a:hover {
+  color: #ffffff;
+
+  text-decoration: underline;
+
+  text-underline-offset: 5px;
+}
+
+
+/* =========================================================
+   7. REDES SOCIAIS
+   ========================================================= */
+
+.site-footer.cre-forest-footer .cre-footer-social {
+  display: flex;
+
+  align-items: center;
+
+  gap: 9px;
+}
+
+
+/* Botões sociais */
+
+.site-footer.cre-forest-footer .cre-footer-social a {
+  display: grid;
+
+  place-items: center;
+
+  width: 42px;
+  height: 42px;
+
+  color: #ffffff;
+
+  background: rgba(
+    30,
+    153,
+    113,
+    0.45
+  );
+
+  border: 1px solid rgba(
+    255,
+    255,
+    255,
+    0.26
+  );
+
+  border-radius: 12px;
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+
+/* Movimento ao passar o mouse */
+
+.site-footer.cre-forest-footer .cre-footer-social a:hover {
+  transform: translateY(-3px);
+
+  background: rgba(
+    54,
+    169,
+    130,
+    0.8
+  );
+}
+
+
+/* Ícones SVG */
+
+.site-footer.cre-forest-footer .cre-footer-social svg {
+  width: 23px;
+  height: 23px;
+
+  stroke: currentColor;
+  stroke-width: 2;
+}
+
+
+/* =========================================================
+   8. LINHA INFERIOR
+   ========================================================= */
+
+.site-footer.cre-forest-footer .cre-footer-bottom {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  gap: 12px;
+
+  width: min(
+    1160px,
+    calc(100% - 48px)
+  );
+
+  margin: 0 auto;
+
+  padding: 19px 0 23px;
+
+  border-top: 1px solid rgba(
+    255,
+    255,
+    255,
+    0.28
+  );
+
+  color: #e8f8f0;
+
+  font-size: 12px;
+}
+
+
+/* Link de e-mail */
+
+.site-footer.cre-forest-footer .cre-footer-bottom a {
+  color: #e8f8f0;
+}
+
+
+.site-footer.cre-forest-footer .cre-footer-bottom a:hover {
+  color: #ffffff;
+
+  text-decoration: underline;
+}
+
+
+/* =========================================================
+   9. ACESSIBILIDADE
+   ========================================================= */
+
+.site-footer.cre-forest-footer a:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 4px;
+}
+
+
+/* =========================================================
+   10. RESPONSIVIDADE - TABLETS
+   ========================================================= */
+
+@media (max-width: 1200px) {
+
+  .site-footer.cre-forest-footer .cre-footer-main {
+    grid-template-columns:
+      1fr
+      auto;
+  }
+
+
+  .site-footer.cre-forest-footer .cre-footer-nav {
+    grid-column: 1 / -1;
+
+    grid-row: 2;
+
+    justify-content: flex-start;
+  }
+
+}
+
+
+/* =========================================================
+   11. RESPONSIVIDADE - CELULARES
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+  /* Elementos empilhados */
+
+  .site-footer.cre-forest-footer .cre-footer-main {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 23px;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding: 18px 0 24px;
+  }
+
+
+  /* Identidade centralizada */
+
+  .site-footer.cre-forest-footer .cre-footer-identity {
+    justify-content: center;
+  }
+
+
+  /* Links centralizados */
+
+  .site-footer.cre-forest-footer .cre-footer-nav {
+    justify-content: center;
+  }
+
+
+  /* Redes sociais centralizadas */
+
+  .site-footer.cre-forest-footer .cre-footer-social {
+    justify-content: center;
+  }
+
+
+  /* Informações inferiores empilhadas */
+
+  .site-footer.cre-forest-footer .cre-footer-bottom {
+    flex-direction: column;
+
+    text-align: center;
+
+    padding: 17px 0 23px;
+  }
+
+}
+
+
+/* =========================================================
+   12. REDUÇÃO DE MOVIMENTO
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .cre-forest-footer .cre-footer-social a {
+    transition: none;
+  }
+
+}
+
+
+/* ==========================================
+   ÍCONES DAS REDES SOCIAIS
+   ========================================== */
+
+.site-footer.cre-forest-footer .cre-footer-social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.site-footer.cre-forest-footer .cre-footer-social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+
+  border-radius: 12px;
+
+  background: rgba(30, 153, 113, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.26);
+
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease;
+}
+
+/* Imagens SVG armazenadas na pasta assets */
+
+.site-footer.cre-forest-footer .cre-footer-social img {
+  display: block;
+
+  width: 24px;
+  height: 24px;
+
+  max-width: none;
+  object-fit: contain;
+}
+
+/* Animação ao passar o mouse */
+
+.site-footer.cre-forest-footer .cre-footer-social a:hover {
+  transform: translateY(-4px);
+  background: rgba(54, 169, 130, 0.85);
+}
