@@ -1,5 +1,17 @@
 [
   {
+    "id": "979aeb72-0a80-43ba-bda7-6fa316762af5",
+    "titulo": "noticia teste 2",
+    "resumo": "43243243 324324324 423423 432 23432",
+    "conteudo": "dasdas as afafasf ab 22 b 322  das",
+    "categoria": "Formação",
+    "imagem": "assets/noticias/cre-drive-19hImIANlhGBhBx9dQ_yIqde8wRuwEmjF.png",
+    "data": "2026-11-12",
+    "status": "Publicado",
+    "destaque": false,
+    "autor": "jorge"
+  },
+  {
     "id": "dfb59e73-3230-4bb4-9ef2-38403b397033",
     "titulo": "teste news",
     "resumo": "teste teste",
