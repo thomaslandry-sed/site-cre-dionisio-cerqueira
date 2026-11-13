@@ -4,14 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#1a6454">
-  <meta name="description" content="Conheça os diretores das unidades escolares da Coordenadoria Regional de Educação de Dionísio Cerqueira.">
+  <meta name="description" content="Conheça os diretores das unidades escolares e os funcionários da Coordenadoria Regional de Educação de Dionísio Cerqueira.">
   <title>Nossa equipe | Coordenadoria Regional de Educação</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/header.css">
-  <link rel="stylesheet" href="css/footer.css"> 
+  <link rel="stylesheet" href="css/footer.css">
   <script src="js/components.js" defer></script>
   <script src="js/script.js" defer></script>
   <script src="js/equipe.js" defer></script>
@@ -24,7 +24,7 @@
       <div class="container">
         <p class="team-eyebrow"><span class="team-eyebrow-dot" aria-hidden="true"></span> PESSOAS QUE TRANSFORMAM A EDUCAÇÃO</p>
         <h1 id="teamTitle">Nossa <em>equipe.</em></h1>
-        <p class="team-lead">Por trás de cada escola, existem pessoas que acolhem, orientam e fazem a educação acontecer. Conheça a direção das nossas unidades escolares.</p>
+        <p class="team-lead">Por trás de cada escola, existem pessoas que acolhem, orientam e fazem a educação acontecer. Conheça a direção das nossas unidades escolares e a equipe da Coordenadoria.</p>
         <div class="team-hero-meta">
           <span><span class="team-sparkle" aria-hidden="true">✦</span> Coordenadoria Regional de Educação</span>
           <span id="teamMemberCount" aria-live="polite">Conheça nossa rede</span>
@@ -32,11 +32,36 @@
       </div>
     </section>
 
+   
+
+    <!-- QUADRO 2: FUNCIONÁRIOS DA COORDENADORIA -->
+    <section class="team-gallery-section" aria-labelledby="staffGalleryTitle">
+      <div class="container">
+        <div class="team-gallery-heading">
+          <div>
+            <span class="team-gallery-kicker">EQUIPE DA COORDENADORIA</span>
+            <h2 id="staffGalleryTitle">Quem faz a CRE acontecer<span>.</span></h2>
+            <p>Conheça os profissionais que trabalham diariamente para apoiar nossas unidades escolares.</p>
+            <p id="staffMemberCount" aria-live="polite">Conheça nossa equipe</p>
+          </div>
+          <button class="team-redeal-button" id="staffRedeal" type="button" disabled>
+            <span aria-hidden="true">↻</span> Espalhar novamente
+          </button>
+        </div>
+        <div class="team-table" id="staffTable" aria-label="Cartões dos funcionários da Coordenadoria" aria-busy="true">
+          <span class="team-table-stamp" aria-hidden="true">EQUIPE · COORDENADORIA REGIONAL DE EDUCAÇÃO</span>
+          <p class="team-loading" id="staffLoading" role="status">Preparando os cartões dos funcionários...</p>
+        </div>
+        <p class="team-table-caption"><span aria-hidden="true">✧</span> Pessoas que trabalham juntas pelo fortalecimento da educação regional.</p>
+      </div>
+    </section>
+
+     <!-- QUADRO 1: DIRETORES, PRESERVADO -->
     <section class="team-gallery-section" aria-labelledby="teamGalleryTitle">
       <div class="container">
         <div class="team-gallery-heading">
           <div>
-            <span class="team-gallery-kicker">QUEM FAZ PARTE</span>
+            <span class="team-gallery-kicker">DIREÇÃO DAS ESCOLAS</span>
             <h2 id="teamGalleryTitle">Uma rede feita de pessoas<span>.</span></h2>
             <p>Os retratos começam juntos e se espalham pela mesa. Selecione um cartão para conhecer melhor.</p>
           </div>
@@ -44,7 +69,6 @@
             <span aria-hidden="true">↻</span> Espalhar novamente
           </button>
         </div>
-
         <div class="team-table" id="teamTable" aria-label="Cartões dos diretores das unidades escolares" aria-busy="true">
           <span class="team-table-stamp" aria-hidden="true">CRE · DIONÍSIO CERQUEIRA</span>
           <p class="team-loading" id="teamLoading" role="status">Preparando os cartões da nossa equipe...</p>
@@ -56,16 +80,17 @@
 
   <div id="footer-container"></div>
 
+  <!-- UMA JANELA DE DETALHES, COMPARTILHADA PELOS DOIS QUADROS -->
   <dialog id="teamMemberDialog" class="team-member-dialog" aria-labelledby="teamDialogName">
     <button class="team-dialog-close" type="button" id="teamDialogClose" aria-label="Fechar detalhes">×</button>
     <div class="team-dialog-layout">
       <img id="teamDialogPhoto" src="" alt="">
       <div class="team-dialog-info">
-        <span class="team-dialog-kicker">NOSSA EQUIPE</span>
+        <span class="team-dialog-kicker" id="teamDialogKicker">NOSSA EQUIPE</span>
         <h2 id="teamDialogName"></h2>
-        <p class="team-dialog-role">Direção escolar</p>
+        <p class="team-dialog-role" id="teamDialogRole">Direção escolar</p>
         <span class="team-dialog-divider" aria-hidden="true"></span>
-        <span class="team-dialog-label">UNIDADE ESCOLAR</span>
+        <span class="team-dialog-label" id="teamDialogLabel">UNIDADE ESCOLAR</span>
         <p id="teamDialogSchool"></p>
       </div>
     </div>
