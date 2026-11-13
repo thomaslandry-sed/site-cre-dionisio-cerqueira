@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1a6454">
+  <meta name="description" content="Acompanhe, em fotografias de antes e depois, as melhorias realizadas na infraestrutura das escolas da Coordenadoria Regional de Educação de Dionísio Cerqueira.">
+  <title>Melhorias nas Escolas | Coordenadoria Regional de Educação</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/melhorias.css">
+  <script src="js/components.js" defer></script>
+  <script src="js/melhorias.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div id="header-container"></div>
+
+  <main id="conteudo" class="improvement-page">
+    <section class="impr-hero" aria-labelledby="imprTitle">
+      <div class="container impr-hero__layout">
+        <div class="impr-hero__text">
+          <span class="impr-eyebrow"><span class="impr-eyebrow__dot" aria-hidden="true"></span> INFRAESTRUTURA ESCOLAR</span>
+          <h1 id="imprTitle">Transformações que <em>fazem a diferença.</em></h1>
+          <p>Um olhar sobre as melhorias nos espaços das nossas escolas. Explore os registros fotográficos e compare cada ambiente antes e depois das intervenções.</p>
+          <a class="impr-hero__cta" href="#galeriaMelhorias">Conhecer as melhorias <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="impr-hero__art" aria-hidden="true">
+          <div class="impr-hero__eyebrow">UM AMBIENTE. DUAS HISTÓRIAS.</div>
+          <div class="impr-hero__visual">
+            <div class="impr-hero__half impr-hero__half--before"><span>ANTES</span><div class="impr-hero__building"><i></i><i></i><i></i><i></i></div></div>
+            <div class="impr-hero__half impr-hero__half--after"><span>DEPOIS</span><div class="impr-hero__building"><i></i><i></i><i></i><i></i></div></div>
+            <span class="impr-hero__line"><span>↔</span></span>
+          </div>
+          <p>Deslize para enxergar cada mudança.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="impr-stats" aria-label="Resumo da galeria">
+      <div class="container impr-stats__grid">
+        <div class="impr-stat"><span id="imprTotal" class="impr-stat__number" aria-live="polite">0</span><span class="impr-stat__label">registros na galeria</span></div>
+        <div class="impr-stat"><span id="imprSchools" class="impr-stat__number" aria-live="polite">0</span><span class="impr-stat__label">unidades cadastradas</span></div>
+        <div class="impr-stat"><span id="imprTypes" class="impr-stat__number" aria-live="polite">0</span><span class="impr-stat__label">tipos de ambiente</span></div>
+        <div class="impr-stats__note"><span class="impr-stats__symbol" aria-hidden="true">✳</span><p>Mais do que obras, espaços que acolhem a aprendizagem.</p></div>
+      </div>
+    </section>
+
+    <section class="impr-gallery-section" id="galeriaMelhorias" aria-labelledby="imprGalleryTitle">
+      <div class="container">
+        <div class="impr-section-header">
+          <div>
+            <span class="impr-section-kicker">REGISTROS FOTOGRÁFICOS</span>
+            <h2 id="imprGalleryTitle">Antes &amp; <em>depois.</em></h2>
+            <p>Arraste a linha sobre cada fotografia para comparar os dois momentos.</p>
+          </div>
+          <span class="impr-section-header__index">01 / TRANSFORMAÇÕES</span>
+        </div>
+
+        <div class="impr-filter-panel" aria-label="Filtrar melhorias">
+          <div class="impr-field impr-field--search">
+            <label for="imprSearch">Buscar melhoria</label>
+            <div class="impr-search-wrap"><span aria-hidden="true">⌕</span><input id="imprSearch" type="search" placeholder="Escola, ambiente ou município..." autocomplete="off"></div>
+          </div>
+          <div class="impr-field"><label for="imprSchoolFilter">Unidade escolar</label><select id="imprSchoolFilter"><option value="">Todas as escolas</option></select></div>
+          <div class="impr-field"><label for="imprTypeFilter">Tipo de melhoria</label><select id="imprTypeFilter"><option value="">Todos os ambientes</option></select></div>
+          <button class="impr-filter-reset" id="imprReset" type="button">Limpar filtros</button>
+        </div>
+
+        <div class="impr-list-meta" aria-live="polite"><p id="imprResultCount">Carregando registros...</p><span>Arraste a régua de cada fotografia <span aria-hidden="true">↔</span></span></div>
+        <div id="imprDemoNotice" class="impr-demo-notice" hidden><strong>Prévia de demonstração.</strong> As imagens e escolas abaixo são exemplos visuais. Substitua os registros de <code>data/melhorias.json</code> pelas informações e fotografias reais antes de publicar.</div>
+        <div id="imprGrid" class="impr-grid" aria-live="polite" aria-busy="true"><p class="impr-state">Carregando as transformações das escolas...</p></div>
+      </div>
+    </section>
+
+    <section class="impr-ending" aria-labelledby="imprEndingTitle">
+      <div class="container impr-ending__inner">
+        <span class="impr-ending__sparkle" aria-hidden="true">✦</span>
+        <div><span>ESPAÇOS QUE TRANSFORMAM</span><h2 id="imprEndingTitle">Cuidar dos ambientes também é cuidar de quem aprende.</h2><p>Conheça os espaços renovados da nossa rede por meio dos registros de cada escola.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-container"></div>
+
+  <dialog class="impr-dialog" id="imprDialog" aria-labelledby="imprDialogTitle">
+    <div class="impr-dialog__inner">
+      <div class="impr-dialog__header"><div><span class="impr-section-kicker">AMPLIAÇÃO FOTOGRÁFICA</span><h2 id="imprDialogTitle">Antes e depois</h2><p id="imprDialogSchool"></p></div><button class="impr-dialog__close" id="imprDialogClose" type="button" aria-label="Fechar comparação ampliada">×</button></div>
+      <div id="imprDialogComparison"></div>
+      <p class="impr-dialog__hint">Arraste o controle para comparar as duas fotografias.</p>
+    </div>
+  </dialog>
+</body>
+</html>

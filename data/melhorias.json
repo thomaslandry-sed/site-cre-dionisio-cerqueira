@@ -1,0 +1,68 @@
+[
+  {
+    "id": "exemplo-01",
+    "exemplo": true,
+    "titulo": "Renovação de sala de aula",
+    "escola": "EEB Antenor Nascentes",
+    "municipio": "Município de exemplo",
+    "local": "Bloco de salas",
+    "categoria": "Sala de aula",
+    "ano": 2026,
+    "descricao": "Exemplo de cadastro. Substitua este texto pela descrição real da intervenção, incluindo o que foi realizado e quais espaços foram beneficiados.",
+    "antes": "assets/melhorias/eeb-antenor-nascentes-3.png",
+    "depois": "assets/melhorias/eeb-antenor-nascentes-4.png"
+  },
+  {
+    "id": "exemplo-02",
+    "exemplo": true,
+    "titulo": "Requalificação da biblioteca",
+    "escola": "Escola demonstrativa B",
+    "municipio": "Município de exemplo",
+    "local": "Biblioteca",
+    "categoria": "Biblioteca",
+    "ano": 2026,
+    "descricao": "Registro de demonstração para mostrar o formato de comparação. Substitua pelas fotos reais de antes e depois da biblioteca.",
+    "antes": "assets/melhorias/eeb-antenor-nascentes-5.png",
+    "depois": "assets/melhorias/eeb-antenor-nascentes-6.png"
+  },
+  {
+    "id": "exemplo-03",
+    "exemplo": true,
+    "titulo": "Melhoria dos espaços de convivência",
+    "escola": "Escola demonstrativa C",
+    "municipio": "Município de exemplo",
+    "local": "Área de convivência",
+    "categoria": "Área externa",
+    "ano": 2025,
+    "descricao": "Este é apenas um exemplo visual. Informe a escola, município, descrição da melhoria e os caminhos das fotografias correspondentes.",
+    "antes": "assets/melhorias/eeb-antenor-nascentes-11.png",
+    "depois": "assets/melhorias/eeb-antenor-nascentes-12.png"
+  },
+  {
+    "id": "exemplo-03",
+    "exemplo": true,
+    "titulo": "Melhoria dos espaços de convivência",
+    "escola": "Escola demonstrativa C",
+    "municipio": "Município de exemplo",
+    "local": "Área de convivência",
+    "categoria": "Área externa",
+    "ano": 2025,
+    "descricao": "Este é apenas um exemplo visual. Informe a escola, município, descrição da melhoria e os caminhos das fotografias correspondentes.",
+    "antes": "assets/melhorias/eeb-antenor-nascentes-7.png",
+    "depois": "assets/melhorias/eeb-antenor-nascentes-8.png"
+  },
+  {
+    "id": "exemplo-03",
+    "exemplo": true,
+    "titulo": "Melhoria dos espaços de convivência",
+    "escola": "Escola demonstrativa C",
+    "municipio": "Município de exemplo",
+    "local": "Área de convivência",
+    "categoria": "Área externa",
+    "ano": 2025,
+    "descricao": "Este é apenas um exemplo visual. Informe a escola, município, descrição da melhoria e os caminhos das fotografias correspondentes.",
+    "antes": "assets/melhorias/eeb-antenor-nascentes-7.png",
+    "depois": "assets/melhorias/eeb-antenor-nascentes-8.png"
+  }
+
+]
