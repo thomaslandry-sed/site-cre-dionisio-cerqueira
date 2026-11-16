@@ -152,8 +152,8 @@
     "categoria": "Área externa",
     "ano": 2025,
     "descricao": "Este é apenas um exemplo visual. Informe a escola, município, descrição da melhoria e os caminhos das fotografias correspondentes.",
-    "antes": "assets/melhorias/eeb-elza-1.png",
-    "depois": "assets/melhorias/eeb-elza-2.png"
+    "antes": "assets/melhorias/eeb-elza-2.png",
+    "depois": "assets/melhorias/eeb-elza-1.png"
   },  
   {
     "id": "exemplo-03",
@@ -180,6 +180,19 @@
     "descricao": "Este é apenas um exemplo visual. Informe a escola, município, descrição da melhoria e os caminhos das fotografias correspondentes.",
     "antes": "assets/melhorias/irineu-bornhausen-3.jpeg",
     "depois": "assets/melhorias/irineu-bornhausen-4.jpeg"
+  },
+  {
+    "id": "exemplo-03",
+    "exemplo": true,
+    "titulo": "Melhoria dos espaços de convivência",
+    "escola": "EEB GOV Irineu Bornhausen",
+    "municipio": "Município de exemplo",
+    "local": "Área de convivência",
+    "categoria": "Área externa",
+    "ano": 2025,
+    "descricao": "Este é apenas um exemplo visual. Informe a escola, município, descrição da melhoria e os caminhos das fotografias correspondentes.",
+    "antes": "assets/melhorias/irineu-bornhausen-5.jpeg",
+    "depois": "assets/melhorias/irineu-bornhausen-6.jpeg"
   }
 
 
