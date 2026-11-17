@@ -193,7 +193,127 @@
     "descricao": "Este é apenas um exemplo visual. Informe a escola, município, descrição da melhoria e os caminhos das fotografias correspondentes.",
     "antes": "assets/melhorias/irineu-bornhausen-5.jpeg",
     "depois": "assets/melhorias/irineu-bornhausen-6.jpeg"
+  },
+  {
+    "id": "exemplo-03",
+    "exemplo": true,
+    "titulo": "Melhoria dos espaços de convivência",
+    "escola": "EEB GOV Irineu Bornhausen",
+    "municipio": "Município de exemplo",
+    "local": "Área de convivência",
+    "categoria": "Área externa",
+    "ano": 2025,
+    "descricao": "Este é apenas um exemplo visual. Informe a escola, município, descrição da melhoria e os caminhos das fotografias correspondentes.",
+    "antes": "assets/melhorias/irineu-bornhausen-7.jpeg",
+    "depois": "assets/melhorias/irineu-bornhausen-8.jpeg"
+  },
+  {
+    "id": "exemplo-03",
+    "exemplo": true,
+    "titulo": "Melhoria dos espaços de convivência",
+    "escola": "EEB GOV Irineu Bornhausen",
+    "municipio": "Município de exemplo",
+    "local": "Área de convivência",
+    "categoria": "Área externa",
+    "ano": 2025,
+    "descricao": "Este é apenas um exemplo visual. Informe a escola, município, descrição da melhoria e os caminhos das fotografias correspondentes.",
+    "antes": "assets/melhorias/irineu-bornhausen-9.jpeg",
+    "depois": "assets/melhorias/irineu-bornhausen-10.jpeg"
+  },
+  {
+    "id": "exemplo-03",
+    "exemplo": true,
+    "titulo": "Melhoria dos espaços de convivência",
+    "escola": "EEB Catharina Seger",
+    "municipio": "Município de exemplo",
+    "local": "Área de convivência",
+    "categoria": "Área externa",
+    "ano": 2025,
+    "descricao": "Este é apenas um exemplo visual. Informe a escola, município, descrição da melhoria e os caminhos das fotografias correspondentes.",
+    "antes": "assets/melhorias/catharina-seger-1.jpg",
+    "depois": "assets/melhorias/catharina-seger-2.jpeg"
+  },
+  {
+    "id": "exemplo-03",
+    "exemplo": true,
+    "titulo": "Melhoria dos espaços de convivência",
+    "escola": "EEB Catharina Seger",
+    "municipio": "Município de exemplo",
+    "local": "Área de convivência",
+    "categoria": "Área externa",
+    "ano": 2025,
+    "descricao": "Este é apenas um exemplo visual. Informe a escola, município, descrição da melhoria e os caminhos das fotografias correspondentes.",
+    "antes": "assets/melhorias/catharina-seger-3.jpeg",
+    "depois": "assets/melhorias/catharina-seger-4.jpeg"
+  },
+   {
+    "id": "exemplo-03",
+    "exemplo": true,
+    "titulo": "Melhoria dos espaços de convivência",
+    "escola": "EEF Prof Dalilo Quintino Pereira",
+    "municipio": "Município de exemplo",
+    "local": "Área de convivência",
+    "categoria": "Área externa",
+    "ano": 2025,
+    "descricao": "Este é apenas um exemplo visual. Informe a escola, município, descrição da melhoria e os caminhos das fotografias correspondentes.",
+    "antes": "assets/melhorias/dalilo-quintino-3.jpeg",
+    "depois": "assets/melhorias/dalilo-quintino-4.jpeg"
+  },
+   {
+    "id": "exemplo-03",
+    "exemplo": true,
+    "titulo": "Melhoria dos espaços de convivência",
+    "escola": "EEF Prof Dalilo Quintino Pereira",
+    "municipio": "Município de exemplo",
+    "local": "Área de convivência",
+    "categoria": "Área externa",
+    "ano": 2025,
+    "descricao": "Este é apenas um exemplo visual. Informe a escola, município, descrição da melhoria e os caminhos das fotografias correspondentes.",
+    "antes": "assets/melhorias/dalilo-quintino-1.jpeg",
+    "depois": "assets/melhorias/dalilo-quintino-2.jpeg"
+  },
+  {
+    "id": "exemplo-03",
+    "exemplo": true,
+    "titulo": "Melhoria dos espaços de convivência",
+    "escola": "EEF Prof Dalilo Quintino Pereira",
+    "municipio": "Município de exemplo",
+    "local": "Área de convivência",
+    "categoria": "Área externa",
+    "ano": 2025,
+    "descricao": "Este é apenas um exemplo visual. Informe a escola, município, descrição da melhoria e os caminhos das fotografias correspondentes.",
+    "antes": "assets/melhorias/dalilo-quintino-5.jpeg",
+    "depois": "assets/melhorias/dalilo-quintino-6.jpeg"
+  },
+    {
+    "id": "exemplo-03",
+    "exemplo": true,
+    "titulo": "Melhoria dos espaços de convivência",
+    "escola": "EEF Prof Dalilo Quintino Pereira",
+    "municipio": "Município de exemplo",
+    "local": "Área de convivência",
+    "categoria": "Área externa",
+    "ano": 2025,
+    "descricao": "Este é apenas um exemplo visual. Informe a escola, município, descrição da melhoria e os caminhos das fotografias correspondentes.",
+    "antes": "assets/melhorias/dalilo-quintino-5.jpeg",
+    "depois": "assets/melhorias/dalilo-quintino-7.jpeg"
+  },
+   {
+    "id": "exemplo-03",
+    "exemplo": true,
+    "titulo": "Melhoria dos espaços de convivência",
+    "escola": "EEF Prof Dalilo Quintino Pereira",
+    "municipio": "Município de exemplo",
+    "local": "Área de convivência",
+    "categoria": "Área externa",
+    "ano": 2025,
+    "descricao": "Este é apenas um exemplo visual. Informe a escola, município, descrição da melhoria e os caminhos das fotografias correspondentes.",
+    "antes": "assets/melhorias/dalilo-quintino-8.jpeg",
+    "depois": "assets/melhorias/dalilo-quintino-9.jpeg"
   }
+
+
+
 
 
 ]
