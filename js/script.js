@@ -12,15 +12,115 @@ const IMAGE_FALLBACK =
 
 const GALLERY = [
   {
-    src: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1600&q=85',
+    src: '../assets/fotos-index/1.png',
     title: 'Aprendizagem, encontros e novas descobertas'
   },
   {
-    src: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1600&q=85',
+    src: '../assets/fotos-index/2.JPEG',
     title: 'Conexões que fortalecem nossa rede'
   },
   {
-    src: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=1600&q=85',
+    src: '../assets/fotos-index/3.JPEG',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/4.JPEG',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/5.png',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/6.PNG',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/7.png',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/8.jpeg',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/9.png',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/10.jpeg',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/11.jpeg',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/12.jpeg',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/13.png',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/14.jpeg',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/15.png',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/16.png',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/17.jpeg',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/18.jpeg',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/19.png',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/20.png',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/21.jpeg',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/22.jpeg',
+    title: 'Conhecimento que inspira o futuro'
+  },
+    {
+    src: '../assets/fotos-index/23.jpeg',
+    title: 'Conhecimento que inspira o futuro'
+  },
+   {
+    src: '../assets/fotos-index/24.PNG',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/25.JPEG',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/26.PNG',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/27.JPEG',
+    title: 'Conhecimento que inspira o futuro'
+  },
+  {
+    src: '../assets/fotos-index/28.JPEG',
     title: 'Conhecimento que inspira o futuro'
   }
 ];

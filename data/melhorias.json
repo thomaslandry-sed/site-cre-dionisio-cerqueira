@@ -298,7 +298,8 @@
     "antes": "assets/melhorias/dalilo-quintino-5.jpeg",
     "depois": "assets/melhorias/dalilo-quintino-7.jpeg"
   },
-   {
+
+  {
     "id": "exemplo-03",
     "exemplo": true,
     "titulo": "Melhoria dos espaços de convivência",
@@ -310,7 +311,60 @@
     "descricao": "Este é apenas um exemplo visual. Informe a escola, município, descrição da melhoria e os caminhos das fotografias correspondentes.",
     "antes": "assets/melhorias/dalilo-quintino-8.jpeg",
     "depois": "assets/melhorias/dalilo-quintino-9.jpeg"
+  },
+  {
+    "id": "exemplo-03",
+    "exemplo": true,
+    "titulo": "Melhoria dos espaços de convivência",
+    "escola": "EEF Osni Medeiros Regis",
+    "municipio": "Município de exemplo",
+    "local": "Área de convivência",
+    "categoria": "Área externa",
+    "ano": 2025,
+    "descricao": "Este é apenas um exemplo visual. Informe a escola, município, descrição da melhoria e os caminhos das fotografias correspondentes.",
+    "antes": "assets/melhorias/osni-medeiros-regis-1.png",
+    "depois": "assets/melhorias/osni-medeiros-regis-2.png"
+  },
+  {
+    "id": "exemplo-03",
+    "exemplo": true,
+    "titulo": "Melhoria dos espaços de convivência",
+    "escola": "EEB PROF Maria da Gloria Mattos",
+    "municipio": "Município de exemplo",
+    "local": "Área de convivência",
+    "categoria": "Área externa",
+    "ano": 2025,
+    "descricao": "Este é apenas um exemplo visual. Informe a escola, município, descrição da melhoria e os caminhos das fotografias correspondentes.",
+    "antes": "assets/melhorias/maria-da-gloria-1.jpeg",
+    "depois": "assets/melhorias/maria-da-gloria-2.jpeg"
+  },
+    {
+    "id": "exemplo-03",
+    "exemplo": true,
+    "titulo": "Melhoria dos espaços de convivência",
+    "escola": "EEF João Café Filho",
+    "municipio": "Município de exemplo",
+    "local": "Área de convivência",
+    "categoria": "Área externa",
+    "ano": 2025,
+    "descricao": "Este é apenas um exemplo visual. Informe a escola, município, descrição da melhoria e os caminhos das fotografias correspondentes.",
+    "antes": "assets/melhorias/joao-cafe-filho-1.jpeg",
+    "depois": "assets/melhorias/joao-cafe-filho-2.jpeg"
+  },
+  {
+    "id": "exemplo-03",
+    "exemplo": true,
+    "titulo": "Melhoria dos espaços de convivência",
+    "escola": "EEF João Café Filho",
+    "municipio": "Município de exemplo",
+    "local": "Área de convivência",
+    "categoria": "Área externa",
+    "ano": 2025,
+    "descricao": "Este é apenas um exemplo visual. Informe a escola, município, descrição da melhoria e os caminhos das fotografias correspondentes.",
+    "antes": "assets/melhorias/joao-cafe-filho-3.jpeg",
+    "depois": "assets/melhorias/joao-cafe-filho-4.jpeg"
   }
+
 
 
 
