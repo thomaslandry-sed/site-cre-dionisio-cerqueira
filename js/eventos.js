@@ -3,7 +3,7 @@
 
 // CONFIGURAÇÕES
 // Substitua pelo ID público da agenda institucional.
-const GOOGLE_CALENDAR_ID = "";
+const GOOGLE_CALENDAR_ID = "ntedionisio@sed.sc.gov.br";
 
 const EVENTS_SOURCE = "data/eventos.json";
 
