@@ -1,52 +1,21 @@
 [
   {
-    "id": "formacao-continuada",
-    "titulo": "Formação continuada amplia oportunidades de aprendizagem",
-    "resumo": "Encontros formativos promovem a troca de experiências e fortalecem as práticas pedagógicas na rede.",
-    "conteudo": "Este é um texto de demonstração para representar uma notícia da Coordenadoria Regional de Educação. Quando o portal estiver conectado à planilha, o conteúdo real virá do Google Sheets.\n\nAs notícias poderão incluir informações sobre encontros, ações formativas, inscrições e iniciativas das escolas.",
-    "categoria": "Formação",
-    "data": "2026-11-03",
-    "imagem": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=85",
-    "destaque": true,
-    "status": "Publicado"
-  },
-  {
-    "id": "projetos-na-escola",
-    "titulo": "Projetos escolares valorizam a criatividade dos estudantes",
-    "resumo": "Iniciativas desenvolvidas em sala de aula dão protagonismo aos estudantes e aproximam a comunidade escolar.",
-    "conteudo": "Notícia ilustrativa. Substitua este texto pelo conteúdo institucional verdadeiro.\n\nA página permite apresentar informações detalhadas e compartilhar um link específico para cada notícia.",
-    "categoria": "Projetos",
-    "data": "2026-10-28",
-    "imagem": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=85",
-    "status": "Publicado"
-  },
-  {
-    "id": "comunicado-institucional",
-    "titulo": "Comunicados e orientações disponíveis para as equipes escolares",
-    "resumo": "Confira os canais que irão centralizar documentos, formulários e informações para as escolas.",
-    "conteudo": "Notícia ilustrativa para testar o filtro de comunicados.\n\nNo projeto definitivo, este conteúdo será editado pela equipe responsável pela comunicação da Coordenadoria.",
+    "id": "dcd40d65-813d-429f-96f7-7da2bd35bf32",
+    "titulo": "CRE de Dionísio Cerqueira intensifica acompanhamento às escolas na reta final do ano letivo",
+    "resumo": "Na reta final do ano letivo, a Coordenadoria Regional de Educação de Dionísio Cerqueira intensificou as visitas às unidades escolares, oferecendo suporte pedagógico, administrativo e estrutural. Com a atuação das equipes do NAP e do NTE, a iniciativa contempla o acompanhamento das atividades educacionais, da infraestrutura e das melhorias nas escolas, além da valorização dos projetos desenvolvidos pela comunidade escolar. A ação reforça o compromisso da CRE com uma gestão próxima, colaborativa e",
+    "conteudo": "Na reta final do ano letivo, a equipe da Coordenadoria Regional de Educação de Dionísio Cerqueira intensificou as visitas e o acompanhamento às unidades escolares, reafirmando o compromisso de estar próxima das comunidades e oferecer suporte às demandas de cada instituição. A iniciativa busca assegurar um encerramento organizado e qualificado das atividades escolares, com atenção especial aos aspectos pedagógicos, administrativos e estruturais.\n\nAs equipes do Núcleo de Acompanhamento Pedagógico e Formação de Professores e Gestores (NAP) e do Núcleo de Tecnologias Educacionais (NTE) também têm ampliado sua presença nas escolas, acompanhando os processos de ensino e aprendizagem, dialogando com gestores e professores, orientando encaminhamentos e verificando as condições da infraestrutura tecnológica e dos espaços educacionais. O acompanhamento também contempla a infraestrutura física, as obras e as melhorias realizadas nas unidades, observando os padrões de qualidade e as necessidades de cada comunidade escolar.\n\nAlém do assessoramento técnico e pedagógico, as visitas representam uma oportunidade de prestigiar projetos, apresentações, culminâncias e eventos promovidos pelas escolas, reconhecendo o trabalho desenvolvido por estudantes e profissionais ao longo do ano. Conforme a Supervisora Silvane, a presença da CRE nas unidades escolares traduz uma concepção de gestão baseada na proximidade, na escuta e na colaboração. Mais do que acompanhar processos, trata-se de reconhecer realidades, antecipar necessidades e construir soluções em conjunto, fortalecendo o trabalho das escolas e garantindo que cada unidade conte com o apoio necessário para concluir o ano letivo com qualidade e planejamento.",
     "categoria": "Comunicados",
-    "data": "2026-10-22",
-    "imagem": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=1200&q=85",
-    "status": "Publicado"
-  },
-   {
-    "id": "ddd6edf4-9401-4f69-a3f0-83eb85dfb4db",
-    "titulo": "titulo teste",
-    "resumo": "12323 123123213 1312312",
-    "conteudo": "sASKJahskj sadhkjsdhk kjdhasksh sadhla",
-    "categoria": "Comunicados",
-    "imagem": "assets/noticias/cre-drive-198z7taWwCtupZ1qjfBMUABa-jnylCQuN.jpg",
+    "imagem": "assets/noticias/cre-drive-1G5CmUcBgX5LF9dDUVloVKrmCSfsKwIM0.png",
     "imagens": [
-      "assets/noticias/cre-drive-1qngKYE4MlOgvgXpI6qTcgRxBPc1sa_lh.png",
-      "assets/noticias/cre-drive-1GbcIsFVU050fpzzXKtTTi2vgE2qVGutE.png",
-      "assets/noticias/cre-drive-1fXJFG-rs5OJTrAJma7vVSgf3obAyIRRX.png",
-      "assets/noticias/cre-drive-1yl9OF1dhLarZqd15l9T7jYF-ZTBAPLbO.jpg"
+      "assets/noticias/cre-drive-1MhYBIHvTHPBryyWgOgIFZ1Rx6Xxsismc.jpg",
+      "assets/noticias/cre-drive-16XD3PidMPbqgZlof5yTLmg_5bfeNQ6M8.jpg",
+      "assets/noticias/cre-drive-18EisBXoK5TlRSKKjjbiV4jAOECG4Cf05.jpg",
+      "assets/noticias/cre-drive-18rXfOWjQCcqEB-0dZLCLBzcHCYNJJBZv.jpg",
+      "assets/noticias/cre-drive-1aKyEOVz87HCJGisFoOcS8hE-wlbOVaXu.jpg"
     ],
     "data": "2026-11-26",
     "status": "Publicado",
     "destaque": false,
-    "autor": "thomas"
+    "autor": ""
   }
- 
 ]
