@@ -16,15 +16,15 @@ const GALLERY = [
     title: 'Aprendizagem, encontros e novas descobertas'
   },
   {
-    src: 'assets/fotos-index/2.JPEG',
+    src: 'assets/fotos-index/2.jpeg',
     title: 'Conexões que fortalecem nossa rede'
   },
   {
-    src: 'assets/fotos-index/3.JPEG',
+    src: 'assets/fotos-index/3.jpeg',
     title: 'Conhecimento que inspira o futuro'
   },
   {
-    src: 'assets/fotos-index/4.JPEG',
+    src: 'assets/fotos-index/4.jpeg',
     title: 'Conhecimento que inspira o futuro'
   },
   {
@@ -32,7 +32,7 @@ const GALLERY = [
     title: 'Conhecimento que inspira o futuro'
   },
   {
-    src: 'assets/fotos-index/6.PNG',
+    src: 'assets/fotos-index/6.png',
     title: 'Conhecimento que inspira o futuro'
   },
   {
@@ -104,23 +104,23 @@ const GALLERY = [
     title: 'Conhecimento que inspira o futuro'
   },
    {
-    src: 'assets/fotos-index/24.PNG',
+    src: 'assets/fotos-index/24.png',
     title: 'Conhecimento que inspira o futuro'
   },
   {
-    src: 'assets/fotos-index/25.JPEG',
+    src: 'assets/fotos-index/25.jpeg',
     title: 'Conhecimento que inspira o futuro'
   },
   {
-    src: 'assets/fotos-index/26.PNG',
+    src: 'assets/fotos-index/26.png',
     title: 'Conhecimento que inspira o futuro'
   },
   {
-    src: 'assets/fotos-index/27.JPEG',
+    src: 'assets/fotos-index/27.jpeg',
     title: 'Conhecimento que inspira o futuro'
   },
   {
-    src: 'assets/fotos-index/28.JPEG',
+    src: 'assets/fotos-index/28.jpeg',
     title: 'Conhecimento que inspira o futuro'
   },
   {
