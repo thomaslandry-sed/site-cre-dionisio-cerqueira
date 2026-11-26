@@ -3213,3 +3213,139 @@ body.cre-map-open {
   z-index: 1;
 }
 
+
+
+/* ======================================================
+   FOTOS DE NOTÍCIAS: CARROSSEL DENTRO DA JANELA DE LEITURA
+   Não altera o carrossel "Educação em imagens" da home.
+   ====================================================== */
+.news-dialog {
+  width: min(880px, calc(100% - 32px));
+}
+
+.news-media-carousel {
+  margin: 8px 0 26px;
+  overflow: hidden;
+  border: 1px solid #dce9df;
+  border-radius: 16px;
+  background: #eaf2ec;
+}
+
+.news-media-stage {
+  position: relative;
+  width: 100%;
+  height: clamp(260px, 48vw, 500px);
+  background: #e7efe9;
+  outline-offset: -3px;
+  touch-action: pan-y;
+}
+
+.news-media-slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-media-slide[hidden] {
+  display: none !important;
+}
+
+/* Sobrescreve a regra genérica .dialog-inner img que cortava fotos. */
+.news-dialog .news-media-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  margin: 0;
+  border-radius: 0;
+  object-fit: contain;
+  object-position: center;
+}
+
+.news-media-slide--erro::after {
+  content: 'Fotografia indisponível';
+  position: absolute;
+  color: #425a4d;
+  font-size: 14px;
+}
+
+.news-media-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 25px 17px 12px;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  background: linear-gradient(transparent, rgba(4, 33, 23, .78));
+  text-align: center;
+  pointer-events: none;
+}
+
+.news-media-arrow {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  display: grid;
+  place-items: center;
+  width: 43px;
+  height: 43px;
+  padding: 0;
+  border: 1px solid rgba(255,255,255,.7);
+  border-radius: 50%;
+  color: #fff;
+  background: rgba(17, 67, 48, .8);
+  font: 600 34px/1 'DM Sans', sans-serif;
+  box-shadow: 0 5px 20px #0002;
+  cursor: pointer;
+}
+.news-media-arrow:hover { background: #217b64; }
+.news-media-arrow--prev { left: 12px; }
+.news-media-arrow--next { right: 12px; }
+
+.news-media-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 18px;
+  background: white;
+}
+.news-media-counter {
+  flex-shrink: 0;
+  font-size: 12px;
+  font-weight: 800;
+  color: #1a6454;
+}
+.news-media-dots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 7px;
+}
+.news-media-dot {
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: #c9ded0;
+  cursor: pointer;
+}
+.news-media-dot.active { width: 24px; background: #217b64; }
+
+@media (max-width: 620px) {
+  .news-dialog { width: calc(100% - 18px); }
+  .news-dialog .dialog-inner { padding: 17px; }
+  .news-media-stage { height: min(62vh, 410px); min-height: 230px; }
+  .news-media-arrow { width: 38px; height: 38px; font-size: 29px; }
+  .news-media-arrow--prev { left: 7px; }
+  .news-media-arrow--next { right: 7px; }
+  .news-media-footer { padding: 12px; }
+}

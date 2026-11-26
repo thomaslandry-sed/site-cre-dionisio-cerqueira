@@ -150,6 +150,7 @@ let category = 'Todas';
 let searchTerm = '';
 let expanded = false;
 let galleryIndex = 0;
+let newsPhotoCarouselController = null;
 
 const $ = selector => document.querySelector(selector);
 
@@ -270,7 +271,7 @@ function makeNewsCard(n) {
 
   const img = el('img', 'news-image');
 
-  img.src = n.imagem || IMAGE_FALLBACK;
+  img.src = getNewsImages(n)[0]?.src || IMAGE_FALLBACK;
   img.alt = n.titulo;
   img.loading = 'lazy';
 
@@ -413,6 +414,170 @@ function renderNews() {
 // JANELA DE LEITURA DAS NOTÍCIAS
 // ==========================================
 
+// ==========================================
+// FOTOS ADICIONAIS DAS NOTÍCIAS
+// ==========================================
+
+// A capa (imagem) vem primeiro. As imagens extras são opcionais.
+// Também aceita um array JSON salvo como texto na planilha.
+function getNewsImages(n) {
+  const sources = [];
+  if (typeof n.imagem === 'string' && n.imagem.trim()) {
+    sources.push({ src: n.imagem.trim(), legenda: '' });
+  }
+
+  let extras = n.imagens || [];
+  if (typeof extras === 'string') {
+    const texto = extras.trim();
+    if (texto.startsWith('[')) {
+      try {
+        extras = JSON.parse(texto);
+      } catch (erro) {
+        console.warn('Lista de imagens inválida na notícia:', n.id, erro);
+        extras = [];
+      }
+    } else {
+      // Uma imagem por linha no Google Sheets.
+      extras = texto.split(/\r?\n/);
+    }
+  }
+
+  if (!Array.isArray(extras)) extras = [];
+
+  for (const item of extras) {
+    const src = typeof item === 'string'
+      ? item.trim()
+      : typeof item?.src === 'string'
+        ? item.src.trim()
+        : typeof item?.url === 'string'
+          ? item.url.trim()
+          : '';
+
+    if (!src) continue;
+
+    sources.push({
+      src,
+      legenda: typeof item?.legenda === 'string'
+        ? item.legenda.trim()
+        : ''
+    });
+  }
+
+  // Não repetir a capa se ela também estiver em 'imagens'.
+  const vistas = new Set();
+  return sources.filter(foto => {
+    if (vistas.has(foto.src)) return false;
+    vistas.add(foto.src);
+    return true;
+  });
+}
+
+function criarCarrosselNoticia(n) {
+  const fotos = getNewsImages(n);
+  if (!fotos.length) return null;
+
+  const carrossel = el('section', 'news-media-carousel');
+  carrossel.setAttribute('aria-label', 'Fotografias da notícia');
+
+  const palco = el('div', 'news-media-stage');
+  palco.setAttribute('aria-roledescription', 'carrossel');
+  palco.setAttribute('aria-label', 'Galeria de fotografias');
+  palco.tabIndex = 0;
+
+  const slides = fotos.map((foto, indice) => {
+    const figura = el('figure', 'news-media-slide');
+    const imagem = el('img', 'news-media-image');
+    imagem.src = foto.src;
+    imagem.alt = foto.legenda || `${n.titulo}, fotografia ${indice + 1} de ${fotos.length}`;
+    imagem.loading = indice === 0 ? 'eager' : 'lazy';
+    imagem.decoding = 'async';
+    imagem.draggable = false;
+
+    // Imagem ausente: não travar a navegação da galeria.
+    imagem.addEventListener('error', () => {
+      imagem.alt = 'Fotografia indisponível';
+      imagem.removeAttribute('src');
+      figura.classList.add('news-media-slide--erro');
+    }, { once: true });
+
+    figura.append(imagem);
+    if (foto.legenda) figura.append(el('figcaption', 'news-media-caption', foto.legenda));
+    palco.append(figura);
+    return figura;
+  });
+
+  const info = el('div', 'news-media-footer');
+  const contador = el('span', 'news-media-counter');
+  contador.setAttribute('aria-live', 'polite');
+  const pontos = el('div', 'news-media-dots');
+  pontos.setAttribute('aria-label', 'Selecionar fotografia');
+
+  const voltar = el('button', 'news-media-arrow news-media-arrow--prev', '‹');
+  const avancar = el('button', 'news-media-arrow news-media-arrow--next', '›');
+  voltar.type = avancar.type = 'button';
+  voltar.setAttribute('aria-label', 'Fotografia anterior');
+  avancar.setAttribute('aria-label', 'Próxima fotografia');
+
+  let atual = 0;
+  const botoesPonto = fotos.map((_, indice) => {
+    const ponto = el('button', 'news-media-dot');
+    ponto.type = 'button';
+    ponto.setAttribute('aria-label', `Mostrar fotografia ${indice + 1}`);
+    ponto.addEventListener('click', () => exibir(indice));
+    pontos.append(ponto);
+    return ponto;
+  });
+
+  function exibir(indice) {
+    atual = (indice + fotos.length) % fotos.length;
+    slides.forEach((slide, i) => {
+      slide.hidden = i !== atual;
+      slide.setAttribute('aria-hidden', String(i !== atual));
+    });
+    botoesPonto.forEach((botao, i) => {
+      botao.classList.toggle('active', i === atual);
+      botao.setAttribute('aria-current', i === atual ? 'true' : 'false');
+    });
+    contador.textContent = `Foto ${atual + 1} de ${fotos.length}`;
+  }
+
+  voltar.addEventListener('click', () => exibir(atual - 1));
+  avancar.addEventListener('click', () => exibir(atual + 1));
+
+  // Arrastar horizontalmente no celular.
+  let inicioX = null;
+  palco.addEventListener('touchstart', evento => {
+    inicioX = evento.changedTouches[0]?.clientX ?? null;
+  }, { passive: true });
+  palco.addEventListener('touchend', evento => {
+    if (inicioX === null) return;
+    const deslocamento = evento.changedTouches[0].clientX - inicioX;
+    inicioX = null;
+    if (Math.abs(deslocamento) > 45) exibir(atual + (deslocamento < 0 ? 1 : -1));
+  }, { passive: true });
+
+  // Navegação pelo teclado ao focar o carrossel.
+  palco.addEventListener('keydown', evento => {
+    if (evento.key !== 'ArrowLeft' && evento.key !== 'ArrowRight') return;
+    evento.preventDefault();
+    exibir(atual + (evento.key === 'ArrowRight' ? 1 : -1));
+  });
+
+  carrossel.append(palco);
+  if (fotos.length > 1) {
+    palco.append(voltar, avancar);
+    info.append(contador, pontos);
+    carrossel.append(info);
+  }
+  exibir(0);
+
+  newsPhotoCarouselController = {
+    proxima: () => exibir(atual + 1),
+    anterior: () => exibir(atual - 1)
+  };
+  return carrossel;
+}
+
 function openNews(n) {
   const content = $('#dialogContent');
 
@@ -446,14 +611,11 @@ function openNews(n) {
     date
   );
 
-  if (n.imagem) {
-    const img = el('img');
-
-    img.src = n.imagem;
-    img.alt = n.titulo;
-
-    content.append(img);
-  }
+  // Exibe a capa e as imagens adicionais no carrossel.
+  // Notícias antigas (apenas imagem) continuam funcionando.
+  newsPhotoCarouselController = null;
+  const carrossel = criarCarrosselNoticia(n);
+  if (carrossel) content.append(carrossel);
 
   const text = el(
     'div',
@@ -495,6 +657,7 @@ function closeNews({
   document.body.classList.remove(
     'modal-open'
   );
+  newsPhotoCarouselController = null;
 
   if (
     updateUrl &&
