@@ -1,147 +1,154 @@
 [
   {
-    "nome": "Nome do funcionário 1",
+    "nome": "Silvane T. S. P. de Oliveira",
     "cargo": "Cargo ou função",
     "setor": "Setor da Coordenadoria",
     "foto": "assets/equipe/funcionario-1.png"
   },
   {
-    "nome": "Nome do funcionário 2",
-    "cargo": "Cargo ou função",
-    "setor": "Setor da Coordenadoria",
+    "nome": "Tiago J. Gobetti",
+    "cargo": "Técnico NTE",
+    "setor": "NTE Pedagógico",
     "foto": "assets/equipe/funcionario-2.png"
   },
   {
-    "nome": "Nome do funcionário 2",
-    "cargo": "Cargo ou função",
+    "nome": "Simone Niedermaier",
+    "cargo": "Técnica de Ensino",
     "setor": "Setor da Coordenadoria",
     "foto": "assets/equipe/funcionario-3.png"
   },
   {
-    "nome": "Nome do funcionário 2",
-    "cargo": "Cargo ou função",
+    "nome": "Viviane Zanol Maran",
+    "cargo": "Analista Técnico em Gestão Pública",
     "setor": "Setor da Coordenadoria",
     "foto": "assets/equipe/funcionario-4.png"
   },
   {
-    "nome": "Nome do funcionário 2",
-    "cargo": "Cargo ou função",
+    "nome": "Vânia M. Smaniotto",
+    "cargo": "Técnica DH",
     "setor": "Setor da Coordenadoria",
     "foto": "assets/equipe/funcionario-5.png"
   },
   {
-    "nome": "Nome do funcionário 2",
-    "cargo": "Cargo ou função",
+    "nome": "Janete T. Razia",
+    "cargo": "Integradora de Educação",
     "setor": "Setor da Coordenadoria",
     "foto": "assets/equipe/funcionario-6.png"
   },
   {
-    "nome": "Nome do funcionário 2",
-    "cargo": "Cargo ou função",
+    "nome": "Marcia J. Moreira",
+    "cargo": "Supervisora - Gestão de Pessoas",
     "setor": "Setor da Coordenadoria",
     "foto": "assets/equipe/funcionario-7.png"
   },
   {
-    "nome": "Nome do funcionário 2",
-    "cargo": "Cargo ou função",
+    "nome": "Flávio L. Maziero",
+    "cargo": "Técnico de Ensino",
     "setor": "Setor da Coordenadoria",
     "foto": "assets/equipe/funcionario-8.png"
   },
   {
-    "nome": "Nome do funcionário 2",
-    "cargo": "Cargo ou função",
+    "nome": "Fabieli S. L. Grabin",
+    "cargo": "Técnica de Ensino",
     "setor": "Setor da Coordenadoria",
     "foto": "assets/equipe/funcionario-9.png"
   },
   {
-    "nome": "Nome do funcionário 2",
+    "nome": "Joelma Ferreira Leal",
     "cargo": "Cargo ou função",
     "setor": "Setor da Coordenadoria",
     "foto": "assets/equipe/funcionario-10.png"
   },
   {
-    "nome": "Nome do funcionário 2",
-    "cargo": "Cargo ou função",
+    "nome": "Vania L. Rigotti",
+    "cargo": "Técnica",
     "setor": "Setor da Coordenadoria",
     "foto": "assets/equipe/funcionario-11.png"
   },
   {
-    "nome": "Nome do funcionário 2",
-    "cargo": "Cargo ou função",
+    "nome": "Rosiclei Dal Alba Maziero",
+    "cargo": "Técnica DH",
     "setor": "Setor da Coordenadoria",
     "foto": "assets/equipe/funcionario-12.png"
   },
   {
-    "nome": "Nome do funcionário 2",
-    "cargo": "Cargo ou função",
+    "nome": "Mauro E. Prado",
+    "cargo": "Integrador de Ensino",
     "setor": "Setor da Coordenadoria",
     "foto": "assets/equipe/funcionario-13.png"
   },
   {
-    "nome": "Nome do funcionário 2",
-    "cargo": "Cargo ou função",
-    "setor": "Setor da Coordenadoria",
+    "nome": "Lucas R. Appelt",
+    "cargo": "Técnico NTE",
+    "setor": "NTE Técnico",
     "foto": "assets/equipe/funcionario-14.png"
   },
   {
-    "nome": "Nome do funcionário 2",
-    "cargo": "Cargo ou função",
+    "nome": "Joeldes V. K. Taube",
+    "cargo": "Técnica Educacional",
     "setor": "Setor da Coordenadoria",
     "foto": "assets/equipe/funcionario-15.png"
   },
   {
-    "nome": "Nome do funcionário 2",
-    "cargo": "Cargo ou função",
+    "nome": "Lia Fernanda de Campos",
+    "cargo": "Psicóloga",
     "setor": "Setor da Coordenadoria",
     "foto": "assets/equipe/funcionario-16.png"
   },
   {
-    "nome": "Nome do funcionário 2",
-    "cargo": "Cargo ou função",
+    "nome": "Luizane Schneider",
+    "cargo": "Técnica de Ensino",
     "setor": "Setor da Coordenadoria",
     "foto": "assets/equipe/funcionario-17.png"
   },
   {
-    "nome": "Nome do funcionário 2",
-    "cargo": "Cargo ou função",
+    "nome": "Joceli D. V. Paetzold",
+    "cargo": "Nutricionista",
     "setor": "Setor da Coordenadoria",
     "foto": "assets/equipe/funcionario-18.png"
   },
   {
-    "nome": "Nome do funcionário 2",
-    "cargo": "Cargo ou função",
+    "nome": "Nivaldo Pontin",
+    "cargo": "Integrador Educacional Esportivo",
     "setor": "Setor da Coordenadoria",
     "foto": "assets/equipe/funcionario-19.png"
   },
   {
-    "nome": "Nome do funcionário 2",
-    "cargo": "Cargo ou função",
+    "nome": "Elenir Fátima Ciarini",
+    "cargo": "Assistente Social",
     "setor": "Setor da Coordenadoria",
     "foto": "assets/equipe/funcionario-20.png"
   },
   {
-    "nome": "Nome do funcionário 2",
-    "cargo": "Cargo ou função",
+    "nome": "Ediane M. Siebeneichler",
+    "cargo": "Apoio Pedagógico",
     "setor": "Setor da Coordenadoria",
     "foto": "assets/equipe/funcionario-21.png"
   },
   {
-    "nome": "Nome do funcionário 2",
-    "cargo": "Cargo ou função",
+    "nome": "Darleni I. F. Pires",
+    "cargo": "Técnica NTE",
     "setor": "Setor da Coordenadoria",
     "foto": "assets/equipe/funcionario-22.png"
   },
   {
-    "nome": "Nome do funcionário 2",
-    "cargo": "Cargo ou função",
+    "nome": "Amanda P. Bonamigo",
+    "cargo": "Psícóloga",
     "setor": "Setor da Coordenadoria",
     "foto": "assets/equipe/funcionario-23.png"
   },
+  
   {
-    "nome": "Nome do funcionário 2",
-    "cargo": "Cargo ou função",
+    "nome": "Aline G. Mazzocato",
+    "cargo": "Técnica de Ensino",
     "setor": "Setor da Coordenadoria",
     "foto": "assets/equipe/funcionario-24.png"
+  },
+  {
+    "nome": "Thomas L. A. Silva",
+    "cargo": "Analista de Informática",
+    "setor": "Setor da Coordenadoria",
+    "foto": "assets/equipe/funcionario-25.png"
   }
 
 ]
